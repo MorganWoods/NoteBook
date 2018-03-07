@@ -4,7 +4,7 @@
 
 在网页中新建仓库, 
 本地克隆版本库,  
-```shell
+```
 git clone git@github.com:freelighting/NoteBook.git
 ```
 在本地文件夹中创建 README.md 文件,  
