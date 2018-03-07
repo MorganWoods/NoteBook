@@ -9,6 +9,7 @@
 * 添加 README 文件并且提交  
 
 `git add README.md  
+
 git commit -m' "READEME for my project."`
 * 向 GitHub 推送,完成版本初始化  
 
