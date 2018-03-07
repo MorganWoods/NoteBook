@@ -65,3 +65,8 @@ conda update -n python34 numpy   # 更新package
 conda remove -n python34 numpy   # 删除package
 ```
 
+## pip  
+
+* pip 命令
+
+
