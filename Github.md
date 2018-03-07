@@ -1,5 +1,5 @@
 # 与 Github 操作相关的命令记录
-## 初始化 Github 仓库
+## 初始化 Github 仓库  
 * 在网页中新建仓库
 * 本地克隆版本库
 `git clone git@github.com:freelighting/NoteBook.git`
