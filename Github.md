@@ -9,6 +9,7 @@ git clone git@github.com:freelighting/NoteBook.git
 ```
 在本地文件夹中创建 README.md 文件,  
 添加 README 文件并且提交,   
+
 ```
 git add README.md  
 git commit -m' "READEME for my project. # commit 是提交的意思 -m: --message " 
@@ -16,7 +17,7 @@ git commit -m' "READEME for my project. # commit 是提交的意思 -m: --messag
 向 GitHub 推送,完成版本初始化   
 ```
 git push origin master
-```
+```  
 ## 删除部分文件
 先在本地删除文档,然后提交  
 ```
