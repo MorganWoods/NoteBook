@@ -12,7 +12,7 @@ git clone git@github.com:freelighting/NoteBook.git
 
 ```shell
 git add README.md  
-git commit -m "READEME for my project." # commit 是提交的意思 -m: --message
+git commit -m # commit 是提交的意思 -m: --message
 ```  
 向 GitHub 推送,完成版本初始化   
 ```
