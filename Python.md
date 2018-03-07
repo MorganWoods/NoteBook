@@ -1,18 +1,19 @@
-# Python 中的函数
-## hasattr()
+# Python 中函数以及一些库的使用
+## 函数 
+* hasattr()
 用于确定一个对象中是否具有某个属性,返回一个布尔值  
 `hasattr(object,name)`
 
-# 功能记录
-## 引用同级文件夹下的 py 文档
+## 功能记录
+* 引用同级文件夹下的 py 文档
 ```python
 import sys 
 sys.path.append("..")
 from <文件夹>.<py文件> import <模块>
 ```
 
-# 有关 matplotlib 画图
-## 绘制多个独立窗口图表
+## 有关 matplotlib 画图
+* 绘制多个独立窗口图表
 为不同窗口图标起不同名字,为里添加内容.并在程序最终统一显示,即刻绘制多个独立窗口表格
 ```python
 # figure1
