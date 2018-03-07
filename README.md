@@ -6,5 +6,6 @@
 ## 目录一览
 * [Github](https://github.com/freelighting/NoteBook/blob/master/Github.md)
 * [Python](https://github.com/freelighting/NoteBook/blob/master/Python.md)
+* [Shell](https://github.com/freelighting/NoteBook/blob/master/Shell.md)
 * [Tensorflow](https://github.com/freelighting/NoteBook/blob/master/Tensorflow.md)
 
