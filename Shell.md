@@ -1,6 +1,6 @@
 # shell 脚本相关
 
-## apt-get
+## apt-get  
 * 常用命令
 ```shell
 apt-cache show packagename              #获取包的相关信息，如说明、大小、版本等
