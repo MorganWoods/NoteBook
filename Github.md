@@ -12,12 +12,18 @@ git clone git@github.com:freelighting/NoteBook.git
 git add README.md  
 git commit -m  "READEME for my project." # commit 是提交的意思 -m: --message
 ```  
-向 GitHub 推送,完成版本初始化   
-`git push origin master`  
+向 GitHub 推送,完成版本初始化    
+`git push origin master`
 ## 删除部分文件
 先在本地删除文档,然后提交  
 ```
-git commit -a -m "a file was deleted" # -a: --all commit all changed files  
-git push
-```  
+git rm <path> <file>
+git commit -a -m "a file was deleted" # -a: --all commit all changed files   rm
+git push origin master
+```  
 ##  修改文件
+```
+git add <file>  
+git commit  
+git push origin master
+```
