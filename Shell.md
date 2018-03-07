@@ -25,10 +25,11 @@ apt-get autoremove                      #卸载依赖的程序
 可执行文件位置    /usr/bin  
 lib 文件位置     /usr/lib  
 
-## linux 常用目录
-/boot 引导程序，内核等存放的目录  
-/sbin 超级用户可以使用的命令的目录  
-/bin 普通用户使用的命令  
+## linux 
+* 常用目录  
+/boot 引导程序，内核等存放的目录  
+/sbin 超级用户可以使用的命令的目录  
+/bin 普通用户使用的命令  
 /lib 共享库目录  
 /dev 设备目录  
 /root 用户root的home目录  
@@ -39,3 +40,28 @@ lib 文件位置     /usr/lib  
 /var 经常变化目录 经常放日志文件，缓存文件  
 /tmp 临时目录 系统断电 或许目录被会清空  
 /lost+found 当系统崩溃的时候，在系统修复过程中需要恢复的文件，可能就会在这里被找到了，这个目录一般为空  
+
+## conda   
+
+* conda 常用命令  
+```shell
+conda create -n py35 python=3.5  #创建虚拟环境
+Source activate py35             #激活环境
+conda install numpy              #conda 安装
+conda install anaconda    
+conda info --envs                #查看当前活动的环境
+conda search python
+conda install pandas=0.13.0
+conda update conda
+conda update ipython
+conda list                       #查看当前环境下已安装的包
+conda list -n python34           #查看某个指定环境的已安装包
+conda search numpy               #查找package信息
+# 安装package
+conda install -n python34 numpy
+# 如果不用-n指定环境名称，则被安装在当前活跃环境
+# 也可以通过-c指定通过某个channel安装
+conda update -n python34 numpy   # 更新package
+conda remove -n python34 numpy   # 删除package
+```
+
