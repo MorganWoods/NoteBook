@@ -8,9 +8,9 @@
 * 在本地文件夹中创建 README.md 文件
 * 添加 README 文件并且提交  
 
-`git add README.md  
+```git add README.md  
 
-git commit -m' "READEME for my project."`
+git commit -m' "READEME for my project."```
 * 向 GitHub 推送,完成版本初始化  
 
 `git push origin master`
