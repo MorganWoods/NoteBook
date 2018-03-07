@@ -18,9 +18,9 @@ apt-get autoclean                       #删除已卸载的安装包(Ubuntu14.
 apt-get autoremove                      #卸载依赖的程序
 ```
 
-* apt-get的安装位置
-下载后的软件存放于 /var/cache/apt/archives  
-安装后软件默认存放 /usr/share  
+* apt-get的安装位置  
+下载后的软件存放于 /var/cache/apt/archives   
+安装后软件默认存放 /usr/share  
 可执行文件位置    /usr/bin  
 lib 文件位置     /usr/lib  
 
