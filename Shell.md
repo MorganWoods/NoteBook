@@ -20,10 +20,10 @@ apt-get autoremove                      #卸载依赖的程序
 
 * apt-get的安装位置  
 
-下载后的软件存放于 /var/cache/apt/archives   
-安装后软件默认存放 /usr/share  
-可执行文件位置    /usr/bin  
-lib 文件位置     /usr/lib  
+下载后的软件存放于 /var/cache/apt/archives  
+安装后软件默认存放 /usr/share  
+可执行文件位置    /usr/bin   
+lib 文件位置     /usr/lib  
 
 ## linux 常用目录
 /boot 引导程序，内核等存放的目录  
