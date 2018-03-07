@@ -21,6 +21,7 @@ git rm <path> <file>
 git commit -a -m "a file was deleted" # -a: --all commit all changed files   rm
 git push origin master
 ```  
+
 ##  修改文件
 ```
 git add <file>  
