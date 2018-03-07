@@ -17,12 +17,11 @@ git commit -m  "READEME for my project." # commit 是提交的意思 -m: --messa
 ## 删除部分文件
 先在本地删除文档,然后提交  
 
-```python
+```ruby
 git rm <path> <file>
 git commit -a -m "a file was deleted" # -a: --all commit all changed files   rm
 git push origin master
-```         
-
+```
 ## 修改文件  
 
 ```      
