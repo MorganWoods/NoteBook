@@ -1,11 +1,11 @@
 # Python 中函数以及一些库的使用
 ## 常用函数 
-* hasattr()
-用于确定一个对象中是否具有某个属性,返回一个布尔值  
+* hasattr() <br>
+用于确定一个对象中是否具有某个属性,返回一个布尔值    
 `hasattr(object,name)`   
-* np.random.permutation(state_action.imdex)   
+* np.random.permutation(state_action.imdex)   <br>
 洗牌功能,打乱次序. index 与 columns 对应, index 是 row 的标签  
-* .idxmax()   
+* .idxmax()   <br>
 返回最大值的索引
 
 ## 零散知识
