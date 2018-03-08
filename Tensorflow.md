@@ -8,6 +8,8 @@
 通过 **变量 (Variable)** 维护状态.<br>
 使用 feed 和 fetch 可以为任意的操作(arbitrary operation) 赋值或者从其中获取数据.<br>
 feed一般使用字典形式临时替换值,在该方法结束后自动失效.<br>
+## 常见函数记录<br>
+* tf.assign(x,y):把 x 的值变为 y 的值.
 ## 问题
 * 重复运行程序时出错  
 ```shell
