@@ -21,7 +21,7 @@ from <文件夹>.<py文件> import <模块>
   + 名称前后的双下划线(\_\_init\_\_)  
 这种用法表示 Python 中特殊的方法名.是一种惯例.这将确保不会与用户自定义的名称冲突.   
 * python3 与 2 区别   
-python3中使用 print("")   
+python3中使用 print("")   <br>
 python2中    print ""  
 
 ## 有关 matplotlib 画图
