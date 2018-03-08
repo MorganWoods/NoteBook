@@ -1,10 +1,10 @@
 # Python 中函数以及一些库的使用
-## 函数 
+## 常用函数 
 * hasattr()
 用于确定一个对象中是否具有某个属性,返回一个布尔值  
 `hasattr(object,name)`
 
-## 功能记录
+## 零散知识
 * 引用同级文件夹下的 py 文档
 ```python
 import sys 
