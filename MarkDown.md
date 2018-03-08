@@ -1,4 +1,5 @@
 # 关于 MarkDown 格式使用记录
+参考链接:http://xianbai.me/learn-md/article/about/readme.html
 * 回车可在末尾加两个及以上的空格,回车使用符号代替更放心一些'\<br>'
 * 本仓库文档模板陈述<br>
 一个一级标题,多个二级标题,多个无序列表.<br>
