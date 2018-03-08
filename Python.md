@@ -39,3 +39,10 @@ plt.ylabel('Cost')
 plt.xlabel('training steps')
 # 程序最后显示窗口
 plt.show()
+```
+* 保存图表   
+```python
+plt.plot()
+plt.savefig('PATH and name.jpg')
+plt.show
+```
