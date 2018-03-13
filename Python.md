@@ -27,7 +27,7 @@ from <文件夹>.<py文件> import <模块>
 * python3 与 2 区别   
 python3中使用 print("")   <br>
 python2中    print ""  
-* python 中的 None   
+* python 中的 None   <br>
 它既不是0，也不是False，也不是空字符串。它只是一个空值的对象，也就是一个空的对象，只是没有赋值而已。 
 
 ## 有关 matplotlib 画图
