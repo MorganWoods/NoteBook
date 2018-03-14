@@ -3,7 +3,7 @@
 * Continuous Control with Deep Reinforcement Learning   <br>
   > 2016年ICLR, 作者: Y.Bengio   <br>
   
-  DDPG 算法从这里提出. AC 算法加 DQN 算法. 是 AC 的升级版. 
+    DDPG 算法从这里提出. AC 算法加 DQN 算法. 是 AC 的升级版. 
 
 * Continuous Deep Q-Learning with Model-based Acceleration  <br>
   > 2016年, 作者: Shixiang Gu   <br>
