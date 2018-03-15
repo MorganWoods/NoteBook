@@ -22,3 +22,4 @@
 	* 对于 model free RL 提出了一个新的神经网络: 一个为状态价值函数,一个为运动利益方程.在价值与利益两方面去耦合.
 	* 这个 Dueling network 是一个 Q 网络有两个输出流而不是一个.分别估计 state value function(V<sup>π</sup>) 和 advantage function(A<sup>π</sup>)
 	* 实验证明这种结构可以更快的找到正确动作.
+	* 因为 Dueling 网络输出是 Q 函数,所以可以使用很多已经存在的算法训练,如 DDQN,SARSA.此外,也可以利用很多存在的提升方法,包括:better replay memories, better exploration policies, intrinsic motivation 等等.
