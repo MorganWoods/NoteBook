@@ -17,7 +17,7 @@
 
 ## Advantage相关文章
 * Dueling Network Architectures for Deep Reinforcement Learning
-> 2016, Ziyu Wang, DeepMind
+  > 2016, Ziyu Wang, DeepMind
 
 	* 对于 model free RL 提出了一个新的神经网络: 一个为状态价值函数,一个为运动利益方程.在价值与利益两方面去耦合.
 	* 这个 Dueling network 是一个 Q 网络有两个输出流而不是一个.分别估计 state value function(V<sup>π</sup>) 和 advantage function(A<sup>π</sup>)
