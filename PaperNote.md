@@ -13,7 +13,6 @@
 	* NAF: 不需要像 DDPG 那样训练两个网络,只需要训练一个;提出算法名字:continuous Q learning with NAF.
 	* 从文章实验来看, NAF 的更稳定,并且 reward 高,与 DDPG 相比.
 	* 为什么这个 NAF 的 Qlearning 可以在连续空间运用?
-	[![NAF](http://coach.nervanasys.com/algorithms/design_imgs/naf.png "NAF")](http://coach.nervanasys.com/algorithms/design_imgs/naf.png "NAF")
 
 ## Advantage相关文章
 * Dueling Network Architectures for Deep Reinforcement Learning
