@@ -14,3 +14,11 @@
 	* 从文章实验来看, NAF 的更稳定,并且 reward 高,与 DDPG 相比.
 	* 为什么这个 NAF 的 Qlearning 可以在连续空间运用?
 	[![NAF](http://coach.nervanasys.com/algorithms/design_imgs/naf.png "NAF")](http://coach.nervanasys.com/algorithms/design_imgs/naf.png "NAF")
+
+## Advantage相关文章
+* Dueling Network Architectures for Deep Reinforcement Learning
+> 2016, Ziyu Wang, DeepMind
+
+	* 对于 model free RL 提出了一个新的神经网络: 一个为状态价值函数,一个为运动利益方程.在价值与利益两方面去耦合.
+	* 这个 Dueling network 是一个 Q 网络有两个输出流而不是一个.分别估计 state value function(V<sup>π</sup>) 和 advantage function(A<sup>π</sup>)
+	* 实验证明这种结构可以更快的找到正确动作.
