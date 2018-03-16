@@ -28,7 +28,7 @@ ValueError: Variable conv1/weights already exists, disallowed. Did you mean to s
 	* 使用 tf.summary.merge_all 将所有 summary 节点合并成一个节点,只要运行这个节点,就能产生之前所有的 summary data.
 	* 使用 tf.summary.FileWriter 将运行后输出的数据保存到本地.  
  * 输出图表基本代码
- ```
+ ```C
  #  step1  本段代码展示输出图表的基本方法
  with tf.name_scope('layer_name')
    with tf.name_scope('weights')
