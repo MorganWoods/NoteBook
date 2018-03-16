@@ -38,9 +38,11 @@ ValueError: Variable conv1/weights already exists, disallowed. Did you mean to s
  with tf.name_scope('loss')
    loss=...
    tf.summary.scalar('loss',loss)  
+   
  #  step2  融合节点,写入 log
  merged=tf.summary.merge_all()
  writer=tf.summary.FileWriter('logs/',sess.graph)
+ 
  #  step3  在训练或学习过程中,每过一定步数,记录一下数据 
  result=tf.sess.run(merged,feed_dict={,})  #字典中数据与训练的输入数据一样
  writer.add_summary(result,步数)
