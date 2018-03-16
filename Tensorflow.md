@@ -34,6 +34,10 @@ ValueError: Variable conv1/weights already exists, disallowed. Did you mean to s
    with tf.name_scope('weights')
      Weights=...
      tf.summary.histogram('name',Weights)
+ 
+ with tf.name_scope('loss')
+   loss=...
+   tf.summary.scalar('loss',loss)  
  #  step2  融合节点,写入 log
  merged=tf.summary.merge_all()
  writer=tf.summary.FileWriter('logs/',sess.graph)
