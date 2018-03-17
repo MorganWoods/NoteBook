@@ -1,7 +1,7 @@
 # 简单记录一些增强学习领域文章 <br>
 ## 连续空间相关的文章<br>
 * Deterministic Policy Gradient Algorithms (DPG)  <br>  
-  > 2014, David Silver ,DeepMind
+  > 2014, David Silver ,DeepMind
 
 	* DDPG 算法在这个 DPG 基础上完成.
 	* 本文证明了 policy Gradient.
