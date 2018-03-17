@@ -10,8 +10,8 @@
 feed一般使用字典形式临时替换值,在该方法结束后自动失效.<br>
 ## 常见函数记录<br>
 * tf.assign(x,y):把 x 的值变为 y 的值.
-* tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None)       
-	在输入张量的某个维度上进行求平均值,得出结果为一个标量数据. 第二个为某个维度
+* tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None)      <br> 
+在输入张量的某个维度上进行求平均值,得出结果为一个标量数据. 第二个为某个维度
 
 ## 问题
 * 重复运行程序时出错  
