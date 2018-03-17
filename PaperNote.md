@@ -30,7 +30,7 @@
 	* 因为 Dueling 网络输出是 Q 函数,所以可以使用很多已经存在的算法训练,如 DDQN,SARSA.此外,也可以利用很多存在的提升方法,包括:better replay memories, better exploration policies, intrinsic motivation 等等.
 
 ## 文章收集笔记
-	> 改进目标Q值计算：Deep Reinforcement Learning with Double Q-learning
+	改进目标Q值计算：Deep Reinforcement Learning with Double Q-learning
 	改进随机采样：Prioritized Experience Replay
 	改进网络结构，评估单独动作价值：Dueling Network Architectures for Deep Reinforcement Learning ( 本文为ICML最佳论文之一）
 	改进探索状态空间方式：（1）Deep Exploration via Bootstrapped DQN （2）Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models
