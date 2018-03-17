@@ -28,8 +28,7 @@ ValueError: Variable conv1/weights already exists, disallowed. Did you mean to s
 	  使用 tf.summary.histogram 记录数据直方图: tf.summary.histogram(tag, values, collections=None, name=None）<br>
 	  使用 tf.summary.distribution 记录数据的分布图<br>
 	  使用 tf.summary.image 记录图像数据: tf.summary.image(tag, tensor, max_images=3, collections=None, name=None)<br>
-	* 使用 tf.summary.merge_all 将所有 summary 节点合并成一个节点,只要运行这个节点,就能产生之前所有的 summary data. <br>
-          tf.summary.merge(inputs, collections=None, name=None)<br>
+	* 使用 tf.summary.merge_all 将所有 summary 节点合并成一个节点,只要运行这个节点,就能产生之前所有的 summary data. <br>				tf.summary.merge(inputs, collections=None, name=None)<br>
 	* 使用 tf.summary.FileWriter 将运行后输出的数据保存到本地.  <br>
 
  * 输出图表基本代码
