@@ -14,11 +14,11 @@ Session: 用于执行图.每次 sess.run 的时候才进行真正的计算.<br>
 feed一般使用字典形式临时替换值,在该方法结束后自动失效.<br>
 * 数据结构   <br>
 Rank指数据的维度;shape 指tensor 每个维度的数据个数; Data type 指单个数据的类型,浮点整形等; <br>
-	   * Variables <br>
-  在训练模型时保存于更新参数.<br>  
-	   * placeholders 与 feed_dict <br>
-  定义一张 graph 时候,有时候不需要计算的值,比如输入数据,开始并没有值.所以需要这两个函数的帮助.<br>
-  tf.placeholder(dtype,shape=None,name=None)<br>
+	* Variables <br>
+	  在训练模型时保存于更新参数.<br>  
+  	* placeholders 与 feed_dict <br>
+	  定义一张 graph 时候,有时候不需要计算的值,比如输入数据,开始并没有值.所以需要这两个函数的帮助.<br>
+	  tf.placeholder(dtype,shape=None,name=None)<br>
   
   
 ## 常见函数记录<br>
