@@ -6,8 +6,21 @@
 在被称之为**会话(Session)** 的**上下文(context)** 中执行图.<br>
 使用 **tensor** 表示数据.<br>
 通过 **变量 (Variable)** 维护状态.<br>
+Tensor: 类型化的多维数组,图的边. <br>
+Operation: 执行计算的但愿,节点.<br>
+Graph: 有边与点的图.<br>
+Session: 用于执行图.每次 sess.run 的时候才进行真正的计算.<br>
 使用 feed 和 fetch 可以为任意的操作(arbitrary operation) 赋值或者从其中获取数据.<br>
 feed一般使用字典形式临时替换值,在该方法结束后自动失效.<br>
+* 数据结构   <br>
+Rank指数据的维度;shape 指tensor 每个维度的数据个数; Data type 指单个数据的类型,浮点整形等; <br>
+	   * Variables <br>
+  在训练模型时保存于更新参数.<br>  
+	   * placeholders 与 feed_dict <br>
+  定义一张 graph 时候,有时候不需要计算的值,比如输入数据,开始并没有值.所以需要这两个函数的帮助.<br>
+  tf.placeholder(dtype,shape=None,name=None)<br>
+  
+  
 ## 常见函数记录<br>
 * tf.assign(x,y):把 x 的值变为 y 的值.
 * tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None)      <br> 
