@@ -1,5 +1,12 @@
 # 简单记录一些增强学习领域文章 <br>
 ## 连续空间相关的文章<br>
+* Asynchronous Methods for Deep Reinforcement Learning (A3C) <br>
+		Volodymyr Mnih.  2016. DeepMind
+	* 异步梯度下降优化深度神经网络,提出了许多异步变体. 表现最好的变体是应用在 actor critic 上的并且超过 Atari 上的最新水平.使用多核 CPU 运行程序.
+	* 解决 AC 算法不收敛问题.同时创建多个并行环境,多个 agent 隔离运行.主结构的参数更新受到副结构提交更新的不连续性干扰.更新相关度降低,收敛性提高.
+	* DRL 基于 experience replay, 但他的缺点是:每次交互需要计算,需要离策略学习算法.本文使用多线程取代了 experience replay.
+	* 本文提出的算法: asynchronous one-step Q-learning; Asynchronous advantage actor-critic;
+	
 * Deterministic Policy Gradient Algorithms (DPG)    <br>
 	> 2014, David Silver ,DeepMind <br>
 	
