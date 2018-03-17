@@ -1,6 +1,6 @@
 # 简单记录一些增强学习领域文章 <br>
 ## 连续空间相关的文章<br>
-* Deterministic Policy Gradient Algorithms (DPG)    
+* Deterministic Policy Gradient Algorithms (DPG)  <br>  
   > 2014, David Silver ,DeepMind
 
 	* DDPG 算法在这个 DPG 基础上完成.
@@ -21,7 +21,7 @@
 	* 为什么这个 NAF 的 Qlearning 可以在连续空间运用?
 
 ## Advantage相关文章
-* Dueling Network Architectures for Deep Reinforcement Learning  (Dueling)
+* Dueling Network Architectures for Deep Reinforcement Learning  (Dueling) <br>
   > 2016, Ziyu Wang, DeepMind
 
 	* 对于 model free RL 提出了一个新的神经网络: 一个为状态价值函数,一个为运动利益方程.在价值与利益两方面去耦合.
