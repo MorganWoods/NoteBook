@@ -1,6 +1,16 @@
 # 与 Github 操作相关的命令记录
 
-## 常用命令
+## 修改文件 ※
+
+```python
+git add <file>  # 修改文件后运行这句,跟踪文件,可以依次跟踪多个文档,依次向后排列;添加当前仓库所有文件时直接使用 git add .
+git commit -m 'some words'  #提交文件,一次性提交所有文件
+git push origin master # 推送修改文件到远程仓库
+
+git status # 查看文件状态,
+```
+
+## 常用命令查询
 
 > https://coding.net/help/doc/git/push.html
 
@@ -80,13 +90,3 @@ git rm <path> <file>
 git commit -a -m "a file was deleted" 
 git push origin master
 ```
-## 修改文件 ※  
-
-```python
-git add <file>  # 修改文件后运行这句,跟踪文件,可以依次跟踪多个文档,依次向后排列;添加当前仓库所有文件时直接使用 git add .
-git commit -m 'some words'  #提交文件,一次性提交所有文件
-git push origin master # 推送修改文件到远程仓库
-
-git status # 查看文件状态,
-```
-
