@@ -1,5 +1,5 @@
-# Reinforcement Learning领域文章 
-## Continuous control(字母顺序)
+# Reinforcement Learning领域文章相关笔记 
+## Continuous control 领域
 * Asynchronous Methods for Deep Reinforcement Learning  (A3C) 
   > Volodymyr Mnih. DeepMind. 2016. 
   * 异步梯度下降优化深度神经网络,提出了许多异步变体. 表现最好的变体是应用在 actor critic 上的并且超过 Atari 上的最新水平.使用多核 CPU 运行程序.
@@ -17,6 +17,14 @@
   - TNPG 和 TRPO: 此二者表现尤其突出,证明了限制 policy 分布的改变可以提高学习的稳定性.
   - 文末补充材料中有实验细节,可以作为参考.
 
+* Combining Deep Q-Learning and Advantage Actor-Critic for Continuous Control (A2S)
+
+  > Rae C.Jeong, Waterloo,2018
+  >
+  >  源码 https://github.com/raejeong/RaeboSchool
+
+  * 本文代码与 DDPG 的唯一区别是在选择最优动作方面: DDPG 是 PG 网络( actor)直接选择动作并执行, DQN 网络(critic)进行价值评估; 此文是根据 policy 网络分布选择几个候选动作,再用 DQN 网络价值评估,存储价值最高动作. 并执行.
+  * 实验效果优于 A2C
 
 * Continuous Control with Deep Reinforcement Learning (DDPG)  <br>
   > 2016年ICLR, 作者: Timothy P.Lillicrap   
@@ -56,13 +64,25 @@
   - 本文提出的方法是 SVG, 通过 re-parameterization 把噪声引入到策略和 model 中.
 
 ## Advantage相关文章
-* Dueling Network Architectures for Deep Reinforcement Learning  (Dueling) <br>
-	> 2016, Ziyu Wang, DeepMind <br>
-	
-	* 对于 model free RL 提出了一个新的神经网络: 一个为状态价值函数,一个为运动利益方程.在价值与利益两方面去耦合.
-	* 这个 Dueling network 是一个 Q 网络有两个输出流而不是一个.分别估计 state value function(V<sup>π</sup>) 和 advantage function(A<sup>π</sup>)
-	* 实验证明这种结构可以更快的找到正确动作. 我们发现当可用动作越高, 学习难度就越大, 不过 Dueling DQN 还是会比 Natural DQN 学习得更快. 收敛效果更好.
-	* 因为 Dueling 网络输出是 Q 函数,所以可以使用很多已经存在的算法训练,如 DDQN,SARSA.此外,也可以利用很多存在的提升方法,包括:better replay memories, better exploration policies, intrinsic motivation 等等.
+* Dueling Network Architectures for Deep Reinforcement Learning  (Dueling) 
+  > 2016, Ziyu Wang, DeepMind <br>
+
+  * 对于 model free RL 提出了一个新的神经网络: 一个为状态价值函数,一个为运动利益方程.在价值与利益两方面去耦合.
+  * 这个 Dueling network 是一个 Q 网络有两个输出流而不是一个.分别估计 state value function(V<sup>π</sup>) 和 advantage function(A<sup>π</sup>)
+  * 实验证明这种结构可以更快的找到正确动作. 我们发现当可用动作越高, 学习难度就越大, 不过 Dueling DQN 还是会比 Natural DQN 学习得更快. 收敛效果更好.
+  * 因为 Dueling 网络输出是 Q 函数,所以可以使用很多已经存在的算法训练,如 DDQN,SARSA.此外,也可以利用很多存在的提升方法,包括:better replay memories, better exploration policies, intrinsic motivation 等等.
+
+## 其他文章
+
+* Value Iteration Networks (VIN)
+
+  > Aviv Tamar, UC Berkeley, NIPS 最佳论文 ,2016
+  >
+  > https://github.com/avivt/VIN
+  > https://github.com/TheAbhiKumar/tensorflow-value-iteration-networks
+
+  * 把一个规划程序嵌入到神经网络结构中提高泛化能力.
+  * 将奖励函数和转移函数参数化能求导,在策略求解中引入 __attention__ 机制
 
 ## 文章收集笔记
 	改进目标Q值计算：Deep Reinforcement Learning with Double Q-learning
@@ -74,3 +94,14 @@
 	解决高难度游戏Montezuma‘s Revenge：Unifying Count-Based Exploration and Intrinsic Motivation
 	加快DQN训练速度：Asynchronous Methods for Deep Reinforcement Learning （这篇文章还引出了可以替代DQN的A3C算法，效果4倍Nature DQN）
 	改变DQN使之能够应用在连续控制上面：Continuous Deep Q-Learning with Model-based Acceleration
+
+## 增强算法的技术
+
+- [ ] experience repaly
+- [ ] soft target update
+- [ ] generalized Advantage estimate
+- [ ] NAF
+- [ ] Double Q learning
+- [ ] attention 机制
+- [ ] reward 方程参数化
+
