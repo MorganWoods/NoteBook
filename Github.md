@@ -1,6 +1,9 @@
 # 与 Github 操作相关的命令记录
 
 ## 常用命令
+
+> https://coding.net/help/doc/git/push.html
+
 ```shell
 # 创建版本库
 git clone <url>                  #克隆远程版本库
@@ -37,6 +40,14 @@ git push <remote> <branch>      #上传代码及快速合并
 git push <remote> :<branch/tag-name>  #删除远程分支或标签
 git push --tags                       #上传所有标签
 
+# 分支与标签
+$ git branch                   #显示所有本地分支
+$ git checkout <branch/tag>    #切换到指定分支和标签
+$ git branch <new-branch>      #创建新分支
+$ git branch -d <branch>       #删除本地分支
+$ git tag                      #列出所有本地标签
+$ git tag <tagname>            #基于最新提交创建标签
+$ git tag -d <tagname>         #删除标签
 ```
 
 ## 初始化 Github 仓库  
@@ -69,11 +80,13 @@ git rm <path> <file>
 git commit -a -m "a file was deleted" 
 git push origin master
 ```
-## 修改文件  
+## 修改文件 ※  
 
 ```python
-git add <file>  # 修改文件后运行这句
-git commit -m 'some words'  #依次运行
-git push origin master # 推送修改文件到云端
+git add <file>  # 修改文件后运行这句,跟踪文件,可以依次跟踪多个文档,依次向后排列;添加当前仓库所有文件时直接使用 git add .
+git commit -m 'some words'  #提交文件,一次性提交所有文件
+git push origin master # 推送修改文件到远程仓库
+
+git status # 查看文件状态,
 ```
 
