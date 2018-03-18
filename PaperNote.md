@@ -1,5 +1,11 @@
 # 简单记录一些增强学习领域文章 <br>
 ## 连续空间相关的文章<br>
+- Learning Continuous Control Policies by Stochastic Value Gradients (SVG) <br>
+
+	> Nicolas Heess, DeepMind ,2015
+  - 提出框架使用反向传播学习连续动作空间策略. 通过在 bellman 等式的确定性函数中增加噪声来增加策略随机性.
+  - 本文提出的方法是 SVG, 通过 re-parameterization 把噪声引入到策略和 model 中.
+
 * Asynchronous Methods for Deep Reinforcement Learning (A3C) <br>
 	> Volodymyr Mnih.  2016. DeepMind
 	* 异步梯度下降优化深度神经网络,提出了许多异步变体. 表现最好的变体是应用在 actor critic 上的并且超过 Atari 上的最新水平.使用多核 CPU 运行程序.
