@@ -1,37 +1,59 @@
-# 简单记录一些增强学习领域文章 <br>
-## 连续空间相关的文章<br>
-- Learning Continuous Control Policies by Stochastic Value Gradients (SVG) <br>
+# Reinforcement Learning领域文章 
+## Continuous control(字母顺序)
+* Asynchronous Methods for Deep Reinforcement Learning  (A3C) 
+  > Volodymyr Mnih. DeepMind. 2016. 
+  * 异步梯度下降优化深度神经网络,提出了许多异步变体. 表现最好的变体是应用在 actor critic 上的并且超过 Atari 上的最新水平.使用多核 CPU 运行程序.
+  * 解决 AC 算法不收敛问题.同时创建多个并行环境,多个 agent 隔离运行.主结构的参数更新受到副结构提交更新的不连续性干扰.更新相关度降低,收敛性提高.
+  * DRL 基于 experience replay, 但他的缺点是:每次交互需要计算,需要离策略学习算法.本文使用多线程取代了 experience replay.
+  * 本文提出的算法: asynchronous one-step Q-learning; Asynchronous advantage actor-critic;
 
-	> Nicolas Heess, DeepMind ,2015
-  - 提出框架使用反向传播学习连续动作空间策略. 通过在 bellman 等式的确定性函数中增加噪声来增加策略随机性.
-  - 本文提出的方法是 SVG, 通过 re-parameterization 把噪声引入到策略和 model 中.
+* Benchmarking Deep Reinforcement Learning for Continuous Control  
 
-* Asynchronous Methods for Deep Reinforcement Learning (A3C) <br>
-	> Volodymyr Mnih.  2016. DeepMind
-	* 异步梯度下降优化深度神经网络,提出了许多异步变体. 表现最好的变体是应用在 actor critic 上的并且超过 Atari 上的最新水平.使用多核 CPU 运行程序.
-	* 解决 AC 算法不收敛问题.同时创建多个并行环境,多个 agent 隔离运行.主结构的参数更新受到副结构提交更新的不连续性干扰.更新相关度降低,收敛性提高.
-	* DRL 基于 experience replay, 但他的缺点是:每次交互需要计算,需要离策略学习算法.本文使用多线程取代了 experience replay.
-	* 本文提出的算法: asynchronous one-step Q-learning; Asynchronous advantage actor-critic;
-	
-* Deterministic Policy Gradient Algorithms (DPG)    <br>
-	> 2014, David Silver ,DeepMind <br>
-	
-	* DDPG 算法在这个 DPG 基础上完成.
-	* 本文证明了 policy Gradient.
-	
+  > Yan Duan, OpenAI . 2016
+
+  - 一份 Benchmark. 文中列举的算法有: Reinforce;__TNPG__;RWR;REPS;__TRPO__;CEM;CMA-ES; __DDPG__
+  - 其中, TRPO 与 TNPG 效果优秀. 本文介绍了参数的选取与微调.
+  - 对 DDPG 的评价: 某些任务收敛快,由于样本的高效率.但是不稳定.并且训练过程中 policy 表现降级.对 reward 的范围较敏感,本文实验把 reward 设置为0.1,似乎提高了稳定性.
+  - TNPG 和 TRPO: 此二者表现尤其突出,证明了限制 policy 分布的改变可以提高学习的稳定性.
+  - 文末补充材料中有实验细节,可以作为参考.
+
+
 * Continuous Control with Deep Reinforcement Learning (DDPG)  <br>
-  > 2016年ICLR, 作者: Timothy P.Lillicrap   <br> 
+  > 2016年ICLR, 作者: Timothy P.Lillicrap   
   
   * DDPG 算法从这里提出. AC 算法加 DQN 算法. 是 AC 的升级版. 
 
 * Continuous Deep Q-Learning with Model-based Acceleration (NAF)<br>
-	> 2016年, 作者: Shixiang Gu   <br>
-	
+  > 2016年, 作者: Shixiang Gu   <br>
+
     * 高维RL 基于 model-free 会增加采样的复杂程度,这篇文章主要降低连续空间采样复杂度.提出 NAF 可以使用 Qlearning 处理连续任务.使用 model-based 加速; model-based: 使用监督学习并且在 model 下优化出的策略.
-	* 本文三个贡献: Qlearning 在连续空间的使用; learned model; 加速 model free 连续学习.
-	* NAF: 不需要像 DDPG 那样训练两个网络,只需要训练一个;提出算法名字:continuous Q learning with NAF.
-	* 从文章实验来看, NAF 的更稳定,并且 reward 高,与 DDPG 相比.
-	* 为什么这个 NAF 的 Qlearning 可以在连续空间运用? ❓ 怎么选择动作的? 选择动作的网络如何更新? 和 DQN 的更新方式有区别么?
+  * 本文三个贡献: Qlearning 在连续空间的使用; learned model; 加速 model free 连续学习.
+  * NAF: 不需要像 DDPG 那样训练两个网络,只需要训练一个;提出算法名字:continuous Q learning with NAF.
+  * 从文章实验来看, NAF 的更稳定,并且 reward 高,与 DDPG 相比.
+  * 为什么这个 NAF 的 Qlearning 可以在连续空间运用? ❓ 怎么选择动作的? 选择动作的网络如何更新? 和 DQN 的更新方式有区别么?
+
+- Deterministic Policy Gradient Algorithms (DPG)    
+
+  > 2014, David Silver ,DeepMind 
+
+  - DDPG 算法在这个 DPG 基础上完成.
+  - 本文证明了 policy Gradient.
+
+- High-Dimensional Continuous Control Using Generalized Advantage Estimation (GAE)
+
+  > John Schulman, ICLR, 2016
+
+  * Policy Gradient 方法对于 RL的两个挑战:需要大量的样本数据;尽管输入数据不稳定,但是也很难得到稳定的和持续的提高. 解决前者使用 value function 减少方差; 解决后者使用 __trust region optimization__.
+  * 使用二足四足机器人做实验, model free 的.
+  * 本文贡献: 提出 GAE 来纠正和提高 PG 的 variance reduction 的有效性;提出对于 Value function 使用 TRO 方法,健壮有效来训练神经网络;结合上二者,获得了在连续控制任务中有效的策略.
+  * 一个可能的未来工作是如何自适应或自动调节估计参数 \gamma, \lambda.
+
+- Learning Continuous Control Policies by Stochastic Value Gradients  (SVG) 
+
+  > Nicolas Heess, DeepMind ,2015
+
+  - 提出框架使用反向传播学习连续动作空间策略. 通过在 bellman 等式的确定性函数中增加噪声来增加策略随机性.
+  - 本文提出的方法是 SVG, 通过 re-parameterization 把噪声引入到策略和 model 中.
 
 ## Advantage相关文章
 * Dueling Network Architectures for Deep Reinforcement Learning  (Dueling) <br>
