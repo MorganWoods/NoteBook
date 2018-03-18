@@ -1,4 +1,4 @@
-关于 MarkDown 格式使用记录
+# 关于 MarkDown 格式使用记录
 
 参考链接:http://xianbai.me/learn-md/article/about/readme.html
 
