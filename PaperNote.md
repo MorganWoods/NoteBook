@@ -46,7 +46,7 @@
   * Policy Gradient 方法对于 RL的两个挑战:需要大量的样本数据;尽管输入数据不稳定,但是也很难得到稳定的和持续的提高. 解决前者使用 value function 减少方差; 解决后者使用 __trust region optimization__.
   * 使用二足四足机器人做实验, model free 的.
   * 本文贡献: 提出 GAE 来纠正和提高 PG 的 variance reduction 的有效性;提出对于 Value function 使用 TRO 方法,健壮有效来训练神经网络;结合上二者,获得了在连续控制任务中有效的策略.
-  * 一个可能的未来工作是如何自适应或自动调节估计参数 \gamma, \lambda.
+  * 一个可能的未来工作是如何自适应或自动调节估计参数 $\gamma, \lambda.$
 
 - Learning Continuous Control Policies by Stochastic Value Gradients  (SVG) 
 
