@@ -72,7 +72,7 @@ git push origin master
 ## 修改文件  
 
 ```python
-git add <file>  
-git commit  
-git push origin master
+git add <file>  # 修改文件后运行这句
+git commit -m somewords  #依次运行
+git push origin master # 推送修改文件到云端
 ```
