@@ -26,6 +26,13 @@
   * 本文代码与 DDPG 的唯一区别是在选择最优动作方面: DDPG 是 PG 网络( actor)直接选择动作并执行, DQN 网络(critic)进行价值评估; 此文是根据 policy 网络分布选择几个候选动作,再用 DQN 网络价值评估,存储价值最高动作. 并执行.
   * 实验效果优于 A2C
 
+* Combining Policy Gradient And Q-Learning  (PGQL)
+
+  > Brendan O'Donoghue,ICLR,2017
+
+  * 与 DDPG 齐名的 PGQL; 结合 PG 与离策略 Q-Learning,
+  * Q 更新方程做了改变.
+
 * Continuous Control with Deep Reinforcement Learning (DDPG)  <br>
   > 2016年ICLR, 作者: Timothy P.Lillicrap   
   
