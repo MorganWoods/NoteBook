@@ -70,6 +70,12 @@
   - 提出框架使用反向传播学习连续动作空间策略. 通过在 bellman 等式的确定性函数中增加噪声来增加策略随机性.
   - 本文提出的方法是 SVG, 通过 re-parameterization 把噪声引入到策略和 model 中.
 
+- Reinforcement Learning with Deep Energy-Based Policies (soft Q learning)
+
+  > Tuomas Haarnoja, 2017
+
+  * ​
+
 ## Advantage相关文章
 * Dueling Network Architectures for Deep Reinforcement Learning  (Dueling) 
   > 2016, Ziyu Wang, DeepMind <br>
