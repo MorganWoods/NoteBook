@@ -14,3 +14,4 @@
 - LaTex 公式在线编辑网站:https://www.codecogs.com/latex/eqneditor.php 
 - 比较不错的本地 markdown 编辑软件 Typora
 - 输入希腊字母: \\alpha (beta gamma delta epsilon phi pi) 等等 ,大写希腊字母首字母大写即可. 首尾需要$符号
+- 改变字体颜色与字号:

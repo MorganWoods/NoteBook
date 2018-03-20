@@ -1,6 +1,20 @@
 # Reinforcement Learning领域文章相关笔记 
+## 综述类
+
+* Deep Reinforcement Learning: An Overview
+
+  > Yuxi Li, 2017
+
+  ​
+
 ## Continuous control 领域
+
+* Actor critic 算法记录
+
+  * 策略函数作为 actor 选择动作;价值函数作为 critic 对策略函数进行评估;根据 critic 的输出更新价值网络和策略网络.
+
 * Asynchronous Methods for Deep Reinforcement Learning  (A3C) 
+
   > Volodymyr Mnih. DeepMind. 2016. 
   * 异步梯度下降优化深度神经网络,提出了许多异步变体. 表现最好的变体是应用在 actor critic 上的并且超过 Atari 上的最新水平.使用多核 CPU 运行程序.
   * 解决 AC 算法不收敛问题.同时创建多个并行环境,多个 agent 隔离运行.主结构的参数更新受到副结构提交更新的不连续性干扰.更新相关度降低,收敛性提高.
@@ -39,7 +53,7 @@
   * DDPG 算法从这里提出. AC 算法加 DQN 算法. 是 AC 的升级版. 
 
 * Continuous Deep Q-Learning with Model-based Acceleration (NAF)<br>
-  > 2016年, 作者: Shixiang Gu   <br>
+  > 2016年, Cambridge, 作者: Shixiang Gu   <br>
 
     * 高维RL 基于 model-free 会增加采样的复杂程度,这篇文章主要降低连续空间采样复杂度.提出 NAF 可以使用 Qlearning 处理连续任务.使用 model-based 加速; model-based: 使用监督学习并且在 model 下优化出的策略.
   * 本文三个贡献: Qlearning 在连续空间的使用; learned model; 加速 model free 连续学习.
@@ -52,7 +66,7 @@
   > 2014, David Silver ,DeepMind 
 
   - DDPG 算法在这个 DPG 基础上完成.
-  - 本文证明了 policy Gradient.
+  - 本文证明了 policy Gradient: 策略梯度,其想法是沿着使目标函数(累积奖赏$$ J(π_θ)$$函数)变大的方向调整策略的参数.
 
 - High-Dimensional Continuous Control Using Generalized Advantage Estimation (GAE)
 
@@ -107,6 +121,10 @@
 	解决高难度游戏Montezuma‘s Revenge：Unifying Count-Based Exploration and Intrinsic Motivation
 	加快DQN训练速度：Asynchronous Methods for Deep Reinforcement Learning （这篇文章还引出了可以替代DQN的A3C算法，效果4倍Nature DQN）
 	改变DQN使之能够应用在连续控制上面：Continuous Deep Q-Learning with Model-based Acceleration
+
+## 名词
+
+* Policy: maps state to action,optimization is to find an optimal mapping.
 
 ## 增强算法的技术
 
