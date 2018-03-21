@@ -136,3 +136,9 @@
 - [ ] attention 机制
 - [ ] reward 方程参数化
 
+## 一些网站收藏
+
+* 使用 DDPG,keras 玩 TORCS 赛车游戏,有源码
+
+  https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html
+

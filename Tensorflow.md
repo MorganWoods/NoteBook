@@ -1,11 +1,13 @@
 # Tensorflow 相关笔记
 
+[TOC]
+
 ## 基础知识
 * 基本属性  
 
   * Graph
 
-    使用**图(graph)** 来表示计算任务.有边与点;圆圈代表常亮(const);椭圆代表操作( Op) ;圆角方框代表子图;边代表张量的流向,边上的标记代表张量的形状,(其中,若张量1阶,标记为 scalar, 高阶的标记为 m*n)
+    使用**图(graph)** 来表示计算任务.有边与点;圆圈代表常量(const);椭圆代表操作( Op) ;圆角方框代表子图;边代表张量的流向,边上的标记代表张量的形状,(其中,若张量1阶,标记为 scalar, 高阶的标记为 m*n)
 
   * 在被称之为**会话(Session)** 的**上下文(context)** 中执行图.<br>
 
@@ -31,21 +33,29 @@
 
     tensorflow 中定义某个字符串为变量后它才是变量,与 python 不同.
 
-  * Tensor: 类型化的多维数组,图的边. <br>
+  * Tensor: 类型化的多维数组,图的边. 
 
   * Operation
 
-    执行计算的单元,节点. 在 run 之后才会执行.
+    执行计算的单元,节点node. 在 run 之后才会执行.
 
   * 使用 feed 和 fetch 可以为任意的操作(arbitrary operation) 赋值或者从其中获取数据.
 
     feed一般使用字典形式临时替换值,在该方法结束后自动失效.<br>
 
-  * collection
+  * Collection
 
-    用来组织不同类别的对象,提供一种零存整取思路,在每个层次可以创造对象,存入相应 collection 中;创造完成后可以统一从一个 collection 中取出一类变量,进而施加操作.
+    用来组织不同类别的对象,提供一种零存整取思路,全局存储机制,在每个层次可以创造对象,存入相应 collection 中;创造完成后可以统一从一个 collection 中取出一类变量,进而施加操作.
 
-    在 tf.GraphKeys 中包含了所有默认 collections 的名称. Variable 被手机在名为 tf.GraphKeys.VARIABLES中.
+    在 tf.GraphKeys 中包含了所有默认 collections 的名称. Variable 被收集在名为 tf.GraphKeys.VARIABLES中.
+
+    ```Shell
+    tf.Graph.add_to_collection(name, value)	#向名字为 name 的 collection中存数据
+    tf.add_to_collection(name, value)		#这个和上面函数功能上没有区别，区别是，这个函数是给默认图使用的
+    tf.Graph.get_collection(name, scope=None)#获取数据
+    ```
+
+    tf自己也维护一些collection，就像我们定义的所有summary op都会保存在name=tf.GraphKeys.SUMMARIES。这样，tf.get_collection(tf.GraphKeys.SUMMARIES)就会返回所有定义的summary op
 
   * placeholder
 
@@ -61,6 +71,39 @@
 
 * 初始化常见操作例子
 
+  tf.get_variable(“vname”)方法，在创建变量时，如果这个变量vname已经存在，则，直接使用这个变量，如果不存在，则重新创建；
+
+  而tf.Variable()在创建变量时，一律创建新的变量，如果这个变量已存在，则后缀会增加0、1、2等数字编号予以区别。
+
+  这样做的目的是，搭配上不同的作用域类型，可以实现变量共享机制。
+
+  ```shell
+  tf.get_variable(   	#创建变量
+      name,			#The name of the new or existing variable.
+      shape=None,
+      dtype=None,
+      initializer=None,
+      regularizer=None,
+      trainable=True, # True: 把变量加入 graph collection GraphKeys.TRAINABLE_VARIABLES
+      collections=None,
+      caching_device=None,
+      partitioner=None,
+      validate_shape=True,
+      use_resource=None,
+      custom_getter=None,
+      constraint=None
+  )
+  ```
+
+  TF中，有两种不同类型的作用域类型：
+
+  1.     命名域 (name scope)，通过tf.name_scope 或 tf.op_scope创建；
+
+
+  2.     变量域 (variable scope)，通过tf.variable_scope 或 tf.variable_op_scope创建；
+
+  这两种作用域，对于使用tf.Variable()方式创建的变量，具有相同的效果，都会在变量名称前面，加上域名称。然而，对于通过tf.get_variable()方式创建的变量，只有variable scope名称会加到变名称前面，而name scope不会作为前缀。
+
   ```shell
   #定义变量
   state = tf.Variable(0, name='counter')
@@ -74,12 +117,82 @@
 
   ​
 
-## 常见函数记录
-* tf.assign(x,y):把 x 的值变为 y 的值.
-* tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None)      
-在输入张量的某个维度上进行求平均值,得出结果为一个标量数据. 第二个为某个维度
+## 函数记录
+* `tf.assign(x,y)`:把 x 的值变为 y 的值.
 
-## 关于 Tensorboard
+* `tf.constant_initializer(0.001)`:常用来初始化偏置.
+
+* `tf.gradients`:计算梯度
+
+  ```shell
+  tf.gradients(
+      ys,  #一个 tensor,被微分
+      xs,  #一个 tensor,用来微分的
+      grad_ys=None, #一个 tensor 列表,与 ys 长度一致.保持初始梯度,
+      name='gradients', #自动默认一个这个名字
+      colocate_gradients_with_ops=False,
+      gate_gradients=False,
+      aggregation_method=None,
+      stop_gradients=None
+  )
+  # 返回 tensor 列表,长度是 len(xs) ,其中每个 tensor 是 sum(dy/dx) for y in ys
+  # A list of sum(dy/dx) for each x in xs.
+  ```
+
+* `tf.layers.dense` :layers 模块提供 API, 构建神经网络.
+
+  `conv2d()`。构造二维卷积层。获取过滤器的数量，过滤内核大小，填充和激活功能作为参数。
+
+  `max_pooling2d()`。使用max-pooling算法构建二维池化层。将过滤器大小合并为一个参数。
+
+  `dense()`。构造一个致密层(全连接层)。将神经元数量和激活函数作为参数。
+
+  ```shell
+  tf.layers.dense(
+      inputs,    			#tensor input
+      units,				#Integer or Long, dimensionality of the output space.
+      activation=None,	#None to maintain a linear activation.
+      use_bias=True,		
+      kernel_initializer=None,#Initializer function for the weight matrix. If None (default), weights are initialized using the default initializer used by tf.get_variable.
+      bias_initializer=tf.zeros_initializer(), #Initializer function for the bias.
+      kernel_regularizer=None, 	#Regularizer function for the weight matrix.
+      bias_regularizer=None, #Regularizer function for the bias.
+      activity_regularizer=None, #Regularizer function for the output.
+      kernel_constraint=None,#An optional projection function to be applied to the kernel after being updated by an Optimizer
+      bias_constraint=None,#An optional projection function to be applied to the bias after being updated by an Optimizer.
+      trainable=True,#if True also add variables to the graph collection GraphKeys.TRAINABLE_VARIABLES
+      name=None, #层的名字
+      reuse=None	#whether to reuse the weights of a previous layer by the same name.
+  )
+  #Output tensor the same shape as inputs except the last dimension is of size units.
+  ```
+
+* `tf.placeholder(dtype,shape=None,name=None)`
+
+  此函数可以理解为形参,用于定义过程,执行的时候再赋具体值.
+
+  数据类型:常用的是 tf.float32或64,string 等;shape 默认是 none, 就是一维值,[None,3]表示列是3,行不确定.
+
+  返回一个张量,张量必须在使用句柄的情况下赋值,不可以直接求值.
+
+* `tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None)`      
+  在输入张量的某个维度上进行求平均值,得出结果为一个标量数据. 第二个为某个维度
+
+* `tf.variable_scope(name_or_scope, reuse=None, initializer=None) `和 `tf.name_scope(name)`
+
+  前者:为变量和节点创建名称空间. 在程序其他部分可使用tf.get_variable提取变量.而在重复使用的时候,代码中需要强调`scope.reuse_variables()`, 否则系统将会报错, 以为你只是单纯的不小心重复使用到了一个变量.
+
+  后者:为节点创建名称空间.
+
+* `tf.train` `tf.contrib.learn` `tf.nn` 机器学习 API :
+
+  `tf.train.Optimizer`:优化类,如梯度下降,动量更新等等.
+
+  contrib 是第三方 API;  nn 是神经网络常用的层.
+
+  `tf.contrib.layers.xavier_initializer()`: 权重初始化函数,用来保持每一层梯度大小都差不多,返回初始化权重矩阵.
+
+## Tensorboard
 * 基本操作
   *  tf.summary
 
@@ -96,6 +209,20 @@
 
   * 使用 tf.summary.FileWriter 将运行后输出的数据保存到本地.  
 
+  * 看图: 圆圈代表常量(const);椭圆代表操作节点( Op) ;圆角方框代表子图;边代表张量的流向,边上的标记代表张量的形状,
+
+      | ![namespace_node](http://img.blog.csdn.net/20171103234031234?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2dfMTg4MjYwNzUxNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) | 某个name scope内部的所有节点，双击可以看到内部详情 |
+      | :----------------------------------------------------------: | -------------------------------------------------- |
+      | ![horizontal_stack](http://img.blog.csdn.net/20171103234120054?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2dfMTg4MjYwNzUxNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) | 不连续的节点序列                                   |
+      | ![op_node](http://img.blog.csdn.net/20171103234145957?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2dfMTg4MjYwNzUxNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) | 单个节点（变量）                                   |
+      | ![constant](http://img.blog.csdn.net/20171103234209157?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2dfMTg4MjYwNzUxNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) | 单个节点（常量）                                   |
+      | ![summary](http://img.blog.csdn.net/20171103234232384?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2dfMTg4MjYwNzUxNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) | 统计信息summary节点                                |
+      | ![dataflow_edge](http://img.blog.csdn.net/20171103234252274?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2dfMTg4MjYwNzUxNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) | 各操作间的数据流                                   |
+      | ![control_edge](http://img.blog.csdn.net/20171103234312933?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2dfMTg4MjYwNzUxNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) | 各操作间的控制流                                   |
+      | ![reference_edge](http://img.blog.csdn.net/20171103234333745?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2dfMTg4MjYwNzUxNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) | 输入张量转换节点的引用                             |
+
+  ​
+
 * 概念
 
   * histogram:
@@ -104,7 +231,7 @@
 
   * name_scope()
 
-    保证数据流图简洁,将一些子图归类为一个子节点.
+    保证数据流图简洁,将一些子图归类为一个子节点. 管理节点.
 
  * 输出参数图表基本代码
  ```python
@@ -132,9 +259,14 @@
 
 - 重复运行程序时出错  	
 
-```shell
-ValueError: Variable conv1/weights already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:...
-```
+  ```shell
+  ValueError: Variable conv1/weights already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:...
+  ```
 
-​	解决办法:在程序段前加  
-	`tf.reset_default_graph()`
+  解决办法:在程序段前加  
+
+  ```shell
+  tf.reset_default_graph()
+  ```
+
+  ​

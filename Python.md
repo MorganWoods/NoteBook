@@ -1,11 +1,23 @@
 # Python 中函数以及一些库的使用
+
+[TOC]
+
 ## 常用函数 
-* hasattr() <br>
-用于确定一个对象中是否具有某个属性,返回一个布尔值    
-`hasattr(object,name)`   
-* np.random.permutation(state_action.imdex)   <br>
-洗牌功能,打乱次序. index 与 columns 对应, index 是 row 的标签  
-* .idxmax()   <br>
+* `assert`
+
+  断言, 其后面的判断为假时候就出现错误.是编程序时候用的检查程序的作用.后面为真,则什么都不做.
+
+* `hasattr()` 
+  用于确定一个对象中是否具有某个属性,返回一个布尔值    `hasattr(object,name)`   
+
+* `np.random.permutation(state_action.imdex)  ` 
+  洗牌功能,打乱次序. index 与 columns 对应, index 是 row 的标签  
+
+* `np.random.choice(a, size=None, replace=True, p=None)`
+
+  从 a 中随机算去size 个量,结果放入 array 中返回. p 是可以设置出现概率.
+
+* `idxmax() ` 
 返回最大值的索引
 
 ## 零散知识
