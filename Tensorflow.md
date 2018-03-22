@@ -200,7 +200,7 @@
 
       * tf.summary.scalar 记录标量: tf.summary.scalar(tags, values, collections=None, name=None) 
       * tf.summary.histogram 记录数据直方图: tf.summary.histogram(tag, values, collections=None, name=None)
-      * tf.summary.distribution 记录数据的分布图<br>
+      * tf.summary.distribution 记录数据的分布图
       * tf.summary.image 记录图像数据: tf.summary.image(tag, tensor, max_images=3, collections=None, name=None)
 
   * tf.summary.merge(inputs, collections=None, name=None)        

@@ -1,7 +1,5 @@
 # Python 中函数以及一些库的使用
 
-[TOC]
-
 ## 常用函数 
 * `assert`
 
@@ -10,15 +8,23 @@
 * `hasattr()` 
   用于确定一个对象中是否具有某个属性,返回一个布尔值    `hasattr(object,name)`   
 
-* `np.random.permutation(state_action.imdex)  ` 
+* `idxmax() ` 
+  返回最大值的索引
+
+* `flatten`
+
+  处理矩阵或数组,把其降到一维,默认横着方向降维原数据,若按竖着方向处理源数据, `flatten('F')`
+
+## Numpy
+
+- `np.newaxis` :增加一个维度.
+
+- `np.random.permutation(state_action.imdex)  ` 
   洗牌功能,打乱次序. index 与 columns 对应, index 是 row 的标签  
 
-* `np.random.choice(a, size=None, replace=True, p=None)`
+- `np.random.choice(a, size=None, replace=True, p=None)`
 
   从 a 中随机算去size 个量,结果放入 array 中返回. p 是可以设置出现概率.
-
-* `idxmax() ` 
-返回最大值的索引
 
 ## 零散知识
 * 引用同级文件夹下的 py 文档
