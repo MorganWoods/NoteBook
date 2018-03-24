@@ -84,6 +84,21 @@
   - 提出框架使用反向传播学习连续动作空间策略. 通过在 bellman 等式的确定性函数中增加噪声来增加策略随机性.
   - 本文提出的方法是 SVG, 通过 re-parameterization 把噪声引入到策略和 model 中.
 
+- Q-prop: Sample-Efficent Policy Gradient With An Off-Policy Critic (Q-Prop)
+
+  > Shixiang Gu, Cambridge, ICLR, 2017
+
+  * 在面向现实实验中, model free DRL 会面对一个高采样复杂度. Batch PG 方法可以稳定学习,但是 cost 高方差,需要大量的 batches; TD 方法如 AC 和 QL, 采样多但是有偏差. 这篇文章提出方法: __结合 PG 的稳定性与 off policy RL 的效率__.提出了 Q prop 方法,他既有采样效率也有稳定性. 降低梯度估计的方差并且不引入偏置.
+  * 核心想法: 使用 critic 的 first-order Taylor expansion (一阶泰勒展开) 作为控制变量.解析梯度项评价过程,它既可以被看做使用off-policy的评价过程来减小策略梯度方法带来的方差，又被看作使用on-policy蒙特卡洛方法来修正评价梯度方法带来的偏差。
+  * PG 除了高方差,另一问题在于他需要 on-policy 样本,这使得他对样本敏感. Q prop 用来估计 PG 的. 
+  * 通过使用确定性有偏估计作为控制变量的独特形式对于 MC PG 估计器,我们可以有效地使用两种形式的梯度信息来建造一个新估计器在实践中提高样本效率通过包含 off policy 采样同时保留 on policy MC PG 的稳定性.
+
+- Policy Gradient Methods for Reinforcement Learning with Function Approximation (PG)
+
+  > Richard S.Sutton, 1999
+
+  * 证明了 PG 可以收敛到全局最优点.
+
 - Reinforcement Learning with Deep Energy-Based Policies (soft Q learning)
 
   > Tuomas Haarnoja, 2017
@@ -126,15 +141,40 @@
 
 * Policy: maps state to action,optimization is to find an optimal mapping.
 
+* episodic tasks - 情节性任务。指（强化学习的问题）会在有限步骤下结束。
+  continuing tasks - 连续性任务。指（强化学习的问题）有无限步骤。
+  episode - 情节。指从起始状态（或者当前状态）到结束的所有步骤。
+  tabular method - 列表方法。指使用了数组或者表格存储每个状态（或者状态-行动）的信息（比如：其价值）。
+
+  planning method - 计划性方法。需要一个模型，在模型里，可以获得状态价值。比如： 动态规划。
+  learning method - 学习性方法。不需要模型，通过模拟（或者体验），来计算状态价值。比如：蒙特卡洛方法，时序差分方法。
+
+  on-policy method - on-policy方法。评估的策略和优化的策略是同一个。
+  off-policy method - off-policy方法。评估的策略和优化的策略不是同一个。意味着优化策略使用来自外部的样本数据。
+  target policy - 目标策略。off-policy方法中需要优化的策略。
+  behavior policy - 行为策略μ。off-policy方法中提供样本数据的策略。
+  importance sampling - 行为策略μ的样本数据。
+  importance sampling rate - 由于目标策略π和行为策略μ不同，导致样本数据在使用上的加权值。
+  ordinary importance sampling - 无偏见的计算策略价值的方法。
+  weighted importance sampling - 有偏见的计算策略价值的方法。
+  MSE(mean square error) - 平均平方误差。
+  MDP(markov decision process) - 马尔科夫决策过程
+
+* ≐ - 定义上的等价关系。
+  E[X] - X的期望值。
+  Pr{X=x} - 变量X值为x的概率。
+  v↦g - v渐近g。:ear:
+  v≈g - v约等于g。
+  R - 实数集合。
+  Rn - n个元素的实数向量。
+  maxa∈A F(a) - 在所有的行动中，求最大值F(a)。
+  argmaxc F(c) - 求当F(c)为最大值时，参数c的值。
+
+* unbiased estimate :无偏估计,用样本统计量来估计总体参数时的一种无偏推断.估计量的数学期望等于被估计参数的真实值,具有无偏性,是一种用于评价估计量优良性的准则.
+
 ## 增强算法的技术
 
-- [ ] experience repaly
-- [ ] soft target update
-- [ ] generalized Advantage estimate
-- [ ] NAF
-- [ ] Double Q learning
-- [ ] attention 机制
-- [ ] reward 方程参数化
+experience repaly	soft target update	generalized Advantage estimate	NAF		Double Q learning		attention 机制	reward 方程参数化
 
 ## 一些网站收藏
 
