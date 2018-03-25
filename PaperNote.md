@@ -1,4 +1,6 @@
 # Reinforcement Learning领域文章相关笔记 
+[TOC]
+
 ## 综述类
 
 * Deep Reinforcement Learning: An Overview
@@ -84,6 +86,12 @@
   - 提出框架使用反向传播学习连续动作空间策略. 通过在 bellman 等式的确定性函数中增加噪声来增加策略随机性.
   - 本文提出的方法是 SVG, 通过 re-parameterization 把噪声引入到策略和 model 中.
 
+- Policy Gradient Methods for Reinforcement Learning with Function Approximation (PG)
+
+  > Richard S.Sutton, 1999
+
+  - 证明了 PG 可以收敛到全局最优点.
+
 - Q-prop: Sample-Efficent Policy Gradient With An Off-Policy Critic (Q-Prop)
 
   > Shixiang Gu, Cambridge, ICLR, 2017
@@ -93,11 +101,13 @@
   * PG 除了高方差,另一问题在于他需要 on-policy 样本,这使得他对样本敏感. Q prop 用来估计 PG 的. 
   * 通过使用确定性有偏估计作为控制变量的独特形式对于 MC PG 估计器,我们可以有效地使用两种形式的梯度信息来建造一个新估计器在实践中提高样本效率通过包含 off policy 采样同时保留 on policy MC PG 的稳定性.
 
-- Policy Gradient Methods for Reinforcement Learning with Function Approximation (PG)
+- Trust Region Policy Optimization (TRPO)
 
-  > Richard S.Sutton, 1999
+  > John Schulman, University of  California, 2015
 
-  * 证明了 PG 可以收敛到全局最优点.
+  ![imag](https://pic3.zhimg.com/80/v2-e519a12e0617dd0eb66de29db96af429_hd.jpg)
+
+  * 优化控制策略的方法,可以保证单调递增.对有优化大量非线性策略很有效(如神经网络).
 
 - Reinforcement Learning with Deep Energy-Based Policies (soft Q learning)
 
