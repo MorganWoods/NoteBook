@@ -15,6 +15,10 @@
 
   处理矩阵或数组,把其降到一维,默认横着方向降维原数据,若按竖着方向处理源数据, `flatten('F')`
 
+## 一些库
+
+* `shutil` :高层次文件操作工具
+
 ## Numpy
 
 - `np.newaxis` :增加一个维度.
@@ -44,7 +48,7 @@ from <文件夹>.<py文件> import <模块>
   这种用法表示 Python 中特殊的方法名.是一种惯例.这将确保不会与用户自定义的名称冲突.   
 
 * python3 与 2 区别   
-  python3中使用 print("")   <br>
+  python3中使用 print("")  
   python2中    print ""  
 
 * python 中的 None   <br>
