@@ -1,5 +1,5 @@
 # Reinforcement Learning领域文章相关笔记 
-[TOC]
+
 
 ## 综述类
 
@@ -39,7 +39,7 @@
   >
   >  源码 https://github.com/raejeong/RaeboSchool
 
-  * 本文代码与 DDPG 的唯一区别是在选择最优动作方面: DDPG 是 PG 网络( actor)直接选择动作并执行, DQN 网络(critic)进行价值评估; 此文是根据 policy 网络分布选择几个候选动作,再用 DQN 网络价值评估,存储价值最高动作. 并执行.
+  * 本文代码与 DDPG 的唯一区别是在选择最优动作方面: DDPG 是 PG 网络( actor)直接选择动作并执行, DQN 网络(critic)进行价值评估; 此文是根据 policy 网络分布选择几个候选动作,再用 DQN 网络价值评估,存储价值最高动作. 并执行.(把确定性多做策略改为不确定性动作策略)
   * 实验效果优于 A2C
 
 * Combining Policy Gradient And Q-Learning  (PGQL)
@@ -49,13 +49,13 @@
   * 与 DDPG 齐名的 PGQL; 结合 PG 与离策略 Q-Learning,
   * Q 更新方程做了改变.
 
-* Continuous Control with Deep Reinforcement Learning (DDPG)  <br>
+* Continuous Control with Deep Reinforcement Learning (DDPG)  
   > 2016年ICLR, 作者: Timothy P.Lillicrap   
   
   * DDPG 算法从这里提出. AC 算法加 DQN 算法. 是 AC 的升级版. 
 
-* Continuous Deep Q-Learning with Model-based Acceleration (NAF)<br>
-  > 2016年, Cambridge, 作者: Shixiang Gu   <br>
+* Continuous Deep Q-Learning with Model-based Acceleration (NAF)       
+  > 2016年, Cambridge, 作者: Shixiang Gu  
 
     * 高维RL 基于 model-free 会增加采样的复杂程度,这篇文章主要降低连续空间采样复杂度.提出 NAF 可以使用 Qlearning 处理连续任务.使用 model-based 加速; model-based: 使用监督学习并且在 model 下优化出的策略.
   * 本文三个贡献: Qlearning 在连续空间的使用; learned model; 加速 model free 连续学习.
