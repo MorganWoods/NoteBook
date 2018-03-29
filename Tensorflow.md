@@ -1,8 +1,51 @@
 # Tensorflow 相关笔记
 
-
+[TOC]
 
 ## 基础知识
+* 官方教程笔记
+
+  > [TF中文教程][http://wiki.jikexueyuan.com/project/tensorflow-zh/tutorials/mnist_tf.html]
+
+  Tensorflow不单独地运行单一的复杂计算，而是让我们可以先用图描述一系列可交互的计算操作，然后全部一起在Python之外(就是 feed 的数值)运行。（这样类似的运行方式，可以在不少的机器学习库中看到。）
+
+  `x = tf.placeholder(tf.float32, [None, 784])` : x 是一个占位符,此张量的 shape 是[None,784] None 表示第一个维度可以是任何长度. 一般用来为输入值占位置.
+
+  一个`Variable`代表一个可修改的张量,可以用来计算输入值,也可以在计算中被修改,一般存放模型参数`W = tf.Variable(tf.zeros([784,10]))` ` b = tf.Variable(tf.zeros([10]))` ;用`tf.matmul(X，W)`表示`x`乘以`W`对应公式中的 Wx , 因为他们的 shape 原因.[None,784]x[784,10]+[10];一旦被定义好之后，我们的模型就可以在不同的设备上运行：计算机的CPU，GPU，甚至是手机！
+
+  在训练模型的时候一般要最小化 cost 或 loss, 还有个非常不错的成本函数是交叉熵.
+
+  tf 自动使用反向传播算法来有效的确定变量是如何影响你要最小化的那个成本值得,`train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy)`, 以0.01的速率最小化交叉熵
+
+  创建网络常用操作如下:
+
+  ```shell
+  hidden1 = tf.nn.relu(tf.matmul(images, weights) + biases)
+  hidden2 = tf.nn.relu(tf.matmul(hidden1, weights) + biases)
+  logits = tf.matmul(hidden2, weights) + biases
+  ```
+
+  `loss = tf.reduce_mean(cross_entropy, name='xentropy_mean')`
+
+  `tf.scalar_summary(loss.op.name, loss)#记录图表`
+
+  教程中 CIFAR-10教程中有一种机制可以实现学习率随着时间的推移而递减.:star:
+
+  ​
+
+* 莫烦教程笔记
+
+  tensorflow: 飞行的数据. 在输入层输入数据,其飞到隐藏层与输出层,用梯度下降对参数进行更新,然后循环到收敛;
+
+  tf.Variable 定义变量,与 python 不同, tf 必须先定义它是变量,才能使用.
+
+  要给节点输入数据时使用 placehoder, 其与 feed_dict 是绑定使用的.
+
+  dropout 在 tf 中的一个工具,给他赋予不被 drop 的百分比,可以降低过拟合.
+
+  训练好的神经网络目前 tf 只能保存 variables, 不能保存整个网络的的框架.再次使用时候需要重新定义框架,然后把 variables 放进去学习.
+
+
 * 基本属性  
 
   * Graph
@@ -193,7 +236,41 @@
   `tf.contrib.layers.xavier_initializer()`: 权重初始化函数,用来保持每一层梯度大小都差不多,返回初始化权重矩阵.
 
 ## Tensorboard
+* 一段参考代码
+
+  ```shell
+  def variable_summaries(var):
+      with tf.name_scope('summaries'):
+          mean = tf.reduce_mean(var)
+          tf.summary.scalar('mean', mean)
+          stddev = tf.sqrt(tf.reduce_mean(tf.square(var - mean)))
+          tf.summary.scalar('stddev', stddev)
+          tf.summary.scalar('max', tf.reduce_max(var))
+          tf.summary.scalar('min', tf.reduce_min(var))
+          tf.summary.histogram('histogram', var)
+  ''''''
+  x = tf.placeholder(tf.float32, [None, 784])
+      with tf.name_scope('weights'):
+          W = tf.Variable(tf.zeros([784, 10]))
+          variable_summaries(W)
+      with tf.name_scope('biases'):
+          b = tf.Variable(tf.zeros([10]))
+          variable_summaries(b)
+      with tf.name_scope('Wx_plus_b'):
+          V = tf.matmul(x, W) + b
+          tf.summary.histogram('pre_activations', V)
+      with tf.name_scope('softmax'):
+          y = tf.nn.softmax(V)
+          tf.summary.histogram('activations', y)
+          
+  #
+  distribution 显示的是取值范围;historgram 显示更细节的取值概率信息
+  ```
+
+  ​
+
 * 基本操作
+
   *  tf.summary
 
       summary 是对网络中 tensor 取值进行监测的一种 Operation, 不影响数据流本身.
