@@ -1,5 +1,5 @@
 # Reinforcement Learning领域文章相关笔记 
-
+[TOC]
 
 ## 综述类
 
@@ -123,6 +123,14 @@
   * 这个 Dueling network 是一个 Q 网络有两个输出流而不是一个.分别估计 state value function(V<sup>π</sup>) 和 advantage function(A<sup>π</sup>)
   * 实验证明这种结构可以更快的找到正确动作. 我们发现当可用动作越高, 学习难度就越大, 不过 Dueling DQN 还是会比 Natural DQN 学习得更快. 收敛效果更好.
   * 因为 Dueling 网络输出是 Q 函数,所以可以使用很多已经存在的算法训练,如 DDQN,SARSA.此外,也可以利用很多存在的提升方法,包括:better replay memories, better exploration policies, intrinsic motivation 等等.
+
+## Navigation
+
+* Learning Sample-Efficient Target Reaching for Mobile Robots 
+
+  > Arbaaz Khan , 2018
+
+  * ​
 
 ## 其他文章
 

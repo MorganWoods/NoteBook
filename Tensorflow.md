@@ -165,6 +165,10 @@
 
 * `tf.constant_initializer(0.001)`:常用来初始化偏置.
 
+* `tf.get_collection(key,scope=None)`
+
+  从一个指定集合中取出全部变量,是一个列表. Collection 是全局存储机制,不受到变量名生存空间的影响.
+
 * `tf.gradients`:计算梯度
 
   ```shell
@@ -221,12 +225,6 @@
 * `tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None)`      
   在输入张量的某个维度上进行求平均值,得出结果为一个标量数据. 第二个为某个维度
 
-* `tf.variable_scope(name_or_scope, reuse=None, initializer=None) `和 `tf.name_scope(name)`
-
-  前者:为变量和节点创建名称空间. 在程序其他部分可使用tf.get_variable提取变量.而在重复使用的时候,代码中需要强调`scope.reuse_variables()`, 否则系统将会报错, 以为你只是单纯的不小心重复使用到了一个变量.
-
-  后者:为节点创建名称空间.
-
 * `tf.train` `tf.contrib.learn` `tf.nn` 机器学习 API :
 
   `tf.train.Optimizer`:优化类,如梯度下降,动量更新等等.
@@ -234,6 +232,24 @@
   contrib 是第三方 API;  nn 是神经网络常用的层.
 
   `tf.contrib.layers.xavier_initializer()`: 权重初始化函数,用来保持每一层梯度大小都差不多,返回初始化权重矩阵.
+
+* `tf.train.RMSPropOptimizer.apply_gradients()`
+
+  ```shell
+  apply_gradients(
+      grads_and_vars,  #list of (gradient,variable)
+      global_step=None,
+      name=None
+  )# returns: an Operation that applies the specified gradients,
+  ```
+
+* `tf.variable_scope(name_or_scope, reuse=None, initializer=None) `和 `tf.name_scope(name)`
+
+  前者:为变量和节点创建名称空间. 在程序其他部分可使用tf.get_variable提取变量.而在重复使用的时候,代码中需要强调`scope.reuse_variables()`, 否则系统将会报错, 以为你只是单纯的不小心重复使用到了一个变量.
+
+  后者:为节点创建名称空间.
+
+* ​
 
 ## Tensorboard
 * 一段参考代码
@@ -276,8 +292,20 @@
       summary 是对网络中 tensor 取值进行监测的一种 Operation, 不影响数据流本身.
 
       * tf.summary.scalar 记录标量: tf.summary.scalar(tags, values, collections=None, name=None) 
+
+        ```shell
+        tf.summary.scalar(
+            name,
+            tensor,#A real numeric Tensor containing a single value.
+            collections=None,
+            family=None
+        )
+        ```
+
       * tf.summary.histogram 记录数据直方图: tf.summary.histogram(tag, values, collections=None, name=None)
+
       * tf.summary.distribution 记录数据的分布图
+
       * tf.summary.image 记录图像数据: tf.summary.image(tag, tensor, max_images=3, collections=None, name=None)
 
   * tf.summary.merge(inputs, collections=None, name=None)        
