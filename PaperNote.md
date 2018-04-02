@@ -1,5 +1,5 @@
 # Reinforcement Learning领域文章相关笔记 
-[TOC]
+[toc]
 
 ## 综述类
 
