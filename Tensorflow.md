@@ -252,6 +252,18 @@
 * ​
 
 ## Tensorboard
+* 在 tensorboard 上添加显示自定义的变量 :star:
+
+  ```shell
+  result = tf.Summary(value=[
+  			tf.Summary.Value(tag='name1',simple_value=自定变量1),
+  			tf.Summary.Value(tag='name2',simple_value=自定变量2)])
+  ...
+  writer.add_summary(result,step)
+  ```
+
+  把 writer 定义在外部, 上面这段代码可以在任意处像 graph 中加添加数据,堪称完美级!!!
+
 * 一段参考代码
 
   ```shell

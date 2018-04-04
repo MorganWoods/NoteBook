@@ -6,6 +6,8 @@
 
 doucument 对应整个文档; section 对应章节段落, subsection 对应小节; section 创建的段落使用数字作为章节号,并且出现在目录中. paragraph 不适用数字标识,也不出现在目录中.
 
+section - subsection - paragraph
+
 ## Elsevier 模板
 
 ```latex
