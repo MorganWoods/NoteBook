@@ -27,3 +27,6 @@
 - 插入__图片__![Alt text](/path/to/img.jpg "Optional title")
 
   感叹号+[填什么都行]+(url "可选的标题")
+
+- 超链接: 格式为 `[link text](URL 'title text')`
+

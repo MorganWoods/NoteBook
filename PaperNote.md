@@ -1,5 +1,5 @@
 # Reinforcement Learning领域文章相关笔记 
-[toc]
+[TOC]
 
 ## 综述类
 
@@ -75,9 +75,26 @@
   > John Schulman, ICLR, 2016
 
   * Policy Gradient 方法对于 RL的两个挑战:需要大量的样本数据;尽管输入数据不稳定,但是也很难得到稳定的和持续的提高. 解决前者使用 value function 减少方差; 解决后者使用 __trust region optimization__.
+
   * 使用二足四足机器人做实验, model free 的.
+
   * 本文贡献: 提出 GAE 来纠正和提高 PG 的 variance reduction 的有效性;提出对于 Value function 使用 TRO 方法,健壮有效来训练神经网络;结合上二者,获得了在连续控制任务中有效的策略.
+
   * 一个可能的未来工作是如何自适应或自动调节估计参数 $\gamma, \lambda.$
+
+  * > 摘自 [天津包子馅](https://zhuanlan.zhihu.com/p/29486661) : 基线函数的引用可以减小 PG 的方差. A( 优势函数)是动作值函数相对于值函数的优势, 若动作值函数比值函数大,那么又是函数为正,反之亦反; 对于 PG,优势函数为正时，其幅值为正，则参数沿着使得该轨迹概率增大的方向更新；优势函数为负时，策略梯度的幅值为负，则参数沿着使得该轨迹减小的方向更新。因此，采用优势函数时，算法的收敛速度更快。
+    >
+    > 然而，根据优势函数定义 ![A^{\pi}\left(s_t,a_t\right)=Q\left(s_t,a_t\right)-V\left(s_t\right)](https://www.zhihu.com/equation?tex=A%5E%7B%5Cpi%7D%5Cleft%28s_t%2Ca_t%5Cright%29%3DQ%5Cleft%28s_t%2Ca_t%5Cright%29-V%5Cleft%28s_t%5Cright%29) ，优势函数中的值函数常常利用逼近算法近似计算，因此往往会引入偏差。
+    >
+    > 优势函数的一步估计可写为：
+    >
+    > 从优势函数的一步估计中我们看到， ![V\left(s_t\right)](https://www.zhihu.com/equation?tex=V%5Cleft%28s_t%5Cright%29) 和 ![V\left(s_{t+1}\right)](https://www.zhihu.com/equation?tex=V%5Cleft%28s_%7Bt%2B1%7D%5Cright%29) 的真实值都是未知的，而是用到了估计值，因此优势函数存在偏差。
+    >
+    > GAE的方法是改进对优势函数的估计，将偏差控制到一定的范围内。其方法是对优势函数进行多步估计，并将这些多步估计利用衰减因子进行组合
+    >
+    > Shulman 提出广义优势函数估计 ![GAE\left(\gamma ,\lambda\right)](https://www.zhihu.com/equation?tex=GAE%5Cleft%28%5Cgamma+%2C%5Clambda%5Cright%29) ，利用指数加权平均从1步到无穷步的优势函数估计
+    >
+    > 该方法很好的评价了偏差和方差. 利用代替AC方法中的Critic会产生更好的效果? ? ?
 
 - Learning Continuous Control Policies by Stochastic Value Gradients  (SVG) 
 
