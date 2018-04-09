@@ -147,7 +147,11 @@
 
   > Arbaaz Khan , 2018
 
-  * ​
+* Building Generalizable Agents with a Realistic and Rich 3D Environment
+
+  > Yi Wu , UC Berkeley , yuxin wu, Facebook AI, ICLR , 2018
+
+  * 建立了一个 House3D 的东西, 基于 SUNCG 数据库. 用于室内导航的.
 
 ## 其他文章
 
