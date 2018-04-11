@@ -1,2 +1,6 @@
 # 写论文常用句子摘录
 
+* In this formulation,  ...
+* ,where the A mearns ...
+* ​
+
