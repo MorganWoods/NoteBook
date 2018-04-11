@@ -5,6 +5,8 @@
 * Mac 本地仓库位置: Users/menghaw1/Downloads/0_wmh/7_Project3Pygame/NoteBook/.git/
 
 ##  目录
+* [EnglishTalking](https://github.com/freelighting/NoteBook/blob/master/EnglishTalking.md)
+* [EnglishWriting](https://github.com/freelighting/NoteBook/blob/master/EnglishWriting.md)
 * [Github](https://github.com/freelighting/NoteBook/blob/master/Github.md)
 * [Latex](https://github.com/freelighting/NoteBook/blob/master/Latex.md)
 * [MarkDown](https://github.com/freelighting/NoteBook/blob/master/MarkDown.md)
