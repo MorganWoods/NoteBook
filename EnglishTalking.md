@@ -1,5 +1,7 @@
 # 英语口语记录
 
+## 取自知乎的
+
 > https://www.zhihu.com/question/24544386  下面取自这里.原文有很多, 慢慢看.
 
 * 通过动词前面加 well   或 ill  表示动词性质的好与差.
@@ -35,3 +37,55 @@
 * vary 代替 different 
   Different people have different thoughts .
   People __vary__ in thoughts.
+
+## 其他查询的常用口语
+
+* 最近忙什么
+
+  what are you up to?  最近忙什么? 或者是 问别人 你在做什么?
+
+  I quit. 我不干了.   
+
+  not yet. 还没.
+
+  my treat . 我请客
+
+  bless you. 祝福你
+
+  I decline  我拒绝
+
+  let me see .让我想想
+
+  what's new? 有什么新鲜事么
+
+  count me on 算上我
+
+  that's neat .这很好
+
+  he is my age . 我们同岁
+
+  what a pity . 太遗憾了
+
+  keep in touch. 保持联络
+
+  how's it going? 怎么样
+
+  it's her field. 这是她的本行.
+
+  it's up to you. 由你决定.
+
+  I'll fix you up. 我会帮你处理的.
+
+  How's everything? 一切怎么样
+
+  it depends. 看情况
+
+  It's a long story. 说来话长.
+
+  There comes a bus. 汽车来了.
+
+  It's going too far. 太离谱了
+
+  the answer is zero. 白忙活了
+
+  ​
