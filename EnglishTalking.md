@@ -89,3 +89,10 @@
   the answer is zero. 白忙活了
 
   ​
+
+## 关于吃饭
+
+点你喜欢吃的东西吧,我对吃的并不讲究。 Order anything you like, I'm not particular about food. ○*你们*有什么我就吃什么。没有关系。 Whatever you have. It doesn't matter. ○约翰,*你先*点。 You order first, John. ○我要这一个和这一个。 I would like this one and this one. ○我要来份小牛肉。 I'll have veal. ○我也要。 So will I. 
+
+woat kind of dressing would you like? 哪种调味料?
+no, hold it a second, switch that to roast chicken. 不等等,把那个换成烤鸡.
