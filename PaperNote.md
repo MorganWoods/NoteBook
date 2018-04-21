@@ -124,7 +124,21 @@
 
   ![imag](https://pic3.zhimg.com/80/v2-e519a12e0617dd0eb66de29db96af429_hd.jpg)
 
-  * 优化控制策略的方法,可以保证单调递增.对有优化大量非线性策略很有效(如神经网络).
+  * 在策略梯度方法中还有很多有意思的课题，比如相容函数法，自然梯度法等等。但Shulman在博士论文中已证明，这些方法其实都是TRPO弱化的特例，说这些是再次强调TRPO的强大之处。策略梯度算法的硬伤就在更新步长 $\alpha$，当步长不合适时，更新的参数所对应的策略是一个更不好的策略，当利用这个更不好的策略进行采样学习时，再次更新的参数会更差，因此很容易导致越学越差，最后崩溃。所以，合适的步长对于强化学习非常关键。所谓合适的步长是指当策略更新后，回报函数的值不能更差。如何选择这个步长？或者说，如何找到新的策略使得新的回报函数的值单调增，或单调不减。这是TRPO要解决的问题。
+
+    ![优势函数示意图](https://pic2.zhimg.com/80/v2-05a037b139af7efc98e97e7b13bb7882_hd.jpg)
+
+    值函数 ![V(s)](https://www.zhihu.com/equation?tex=V%28s%29) 可以理解为在该状态下所有可能动作所对应的动作值函数乘以采取该动作的概率的和。更通俗的讲，值函数 ![V(s)](https://www.zhihu.com/equation?tex=V%28s%29) 是该状态下所有动作值函数关于动作概率的平均值。而动作值函数 ![Q(s,a)](https://www.zhihu.com/equation?tex=Q%28s%2Ca%29) 是单个动作所对应的值函数，$Q-V$能评价当前动作值函数相对于平均值的大小。所以，这里的优势指的是动作值函数相比于当前状态的值函数的优势。如果优势函数大于零，则说明该动作比平均动作好，如果优势函数小于零，则说明当前动作还不如平均动作好。
+
+    ​
+
+  * 优化控制策略的方法,可以保证单调递增.对有优化大量非线性策略很有效(如神经网络).不需要大量调试超参数.
+
+  * 许多策略优化算法分类为三个:policy iteration; policy gradient;derivative-free optimization 如 cross entropy 方法(CEM) 和 covariance matrix adaptation(CMA), 它把 cost 视为黑盒; 对于连续控制,如 CMA 的方法很成功; 本文,第一次提出最小化一个固定的替代 loss 函数保证策略提高通过 non-trivial step size, 还描述了两种变体,1 ,single-path 方法,这种可以应用于 model-free 环境, 2 , vine 方法(滕树),需要系统在特定的状态保存,仅仅在仿真时候适用.
+
+  * MDP$(\mathcal{S} ,\mathcal{A} ,P,c,{\rho}_{0},\gamma)$, 其中,$c$是 cost function, ${\rho}_{0}$是初始状态${s}_{0}$的分布,$\pi$是随机策略,${\eta}_{\pi}$是__期望衰减 cost__. 然后是 Q,V,A, 与其他的不同,这里都是用 cost 代替了前人的 reward. $\tilde{\pi}$是另一个策略关注 $\pi$的Advantage; 提出$\rho_{\pi}(s)$是非正规化的衰减 visitation 频率:$\rho_{\pi}(s)=(P(s_{0}=s)+\gamma P(s_{1}=s)+\gamma^{2} P(s_{2}=s)+...)  $.
+
+  * TRPO 的后身是 PPO, 分布式是 DPPO.
 
 - Reinforcement Learning with Deep Energy-Based Policies (soft Q learning)
 
@@ -137,7 +151,7 @@
   > 2016, Ziyu Wang, DeepMind <br>
 
   * 对于 model free RL 提出了一个新的神经网络: 一个为状态价值函数,一个为运动利益方程.在价值与利益两方面去耦合.
-  * 这个 Dueling network 是一个 Q 网络有两个输出流而不是一个.分别估计 state value function(V<sup>π</sup>) 和 advantage function(A<sup>π</sup>)
+  * 这个 Dueling network 是一个 Q 网络有两个输出流而不是一个.分别估计 state value function(${V}_{\pi}$) 和 advantage function(${A}_{\pi}$)
   * 实验证明这种结构可以更快的找到正确动作. 我们发现当可用动作越高, 学习难度就越大, 不过 Dueling DQN 还是会比 Natural DQN 学习得更快. 收敛效果更好.
   * 因为 Dueling 网络输出是 Q 函数,所以可以使用很多已经存在的算法训练,如 DDQN,SARSA.此外,也可以利用很多存在的提升方法,包括:better replay memories, better exploration policies, intrinsic motivation 等等.
 
