@@ -70,6 +70,8 @@
   - DDPG 算法在这个 DPG 基础上完成.
   - 本文证明了 policy Gradient: 策略梯度,其想法是沿着使目标函数(累积奖赏$$ J(π_θ)$$函数)变大的方向调整策略的参数.
 
+- Equivalence Between Policy Gradients and Soft Q-Learning 
+
 - High-Dimensional Continuous Control Using Generalized Advantage Estimation (GAE)
 
   > John Schulman, ICLR, 2016
@@ -107,7 +109,7 @@
 
   > Richard S.Sutton, 1999
 
-  - 证明了 PG 可以收敛到全局最优点.
+  - 证明了 PG 可以收敛到全局最优点. 优化函数是 RL 必要的环节, 但是标准的方法优化价值函数和决定策略从理论上难以证明.这篇文章中我们探索了一个可供替代的方法,策略可以明确地用他自己的函数近似者表明, 独立于价值函数,并且根据关于策略参数的梯度期望来更新.我们主要的结果表明梯度可以写成适应于近似动作值和利益方程的形式.使用这个结果,我们首次证明使用任意的微分近似方程的策略迭代可以收敛到全局最优策略.
 
 - Q-prop: Sample-Efficent Policy Gradient With An Off-Policy Critic (Q-Prop)
 
@@ -145,6 +147,14 @@
   > Tuomas Haarnoja, 2017
 
   * ​
+
+- Soft-Robust Actor-Critic Policy-Gradient (SR-AC)
+
+  > Esther Derman, Technion Israel institute, Google deepmind, 2018
+
+  * MDPs 有些不确定性, 有个 Robust MDPs 解决这个问题. 但是它带来了过分谨慎的结果 ;  本文集中学习一个 soft robust policy 通过吸收 soft robustness 和 online ac 算法  ;  本文的贡献: 1, 一个 soft-robust 衍生的 目标函数 为了 PG. 2. SRAC 算法使用随机优化来学习 . 3. 收敛证明. 4. 实验,展示了其效率.
+  * PG 方法一般的目标函数时最大化平均 reward function.
+  * soft-robust 目标函数…
 
 ## Advantage相关文章
 * 对于解耦 Q 成为 A 和 V 的来源基础记录:
@@ -274,6 +284,4 @@ state-action-value  :   ${ Q }^{ \pi  }(s,a)=\mathbb{ E }[R|s,a,\pi ]$
 ​		其动态编程的计算式 :  ${Q}^{\pi}(s,a)=\mathbb{E}_{{s}^{\prime}}[r+\gamma\mathbb{E}_{{a}^{\prime}\sim{\pi}({s}^{\prime})}[{Q}^{\ast}({s}^{\prime},{a}^{\prime})]|s,a,\pi]$    
 
 Advantage function:  ${ A }^{ \pi  }(s,a)={ Q }^{ \pi  }(s,a)-{ V }^{ \pi  }(s)$     
-
-
 

@@ -43,6 +43,29 @@
 
   把a 中小于 a_min 的值用 a_min 代替,把大于 a_max 的值用a_max 代替.
 
+- 使用双端队列的形式求数据的方差,标准差,均值等
+
+  ```shell
+  import numpy as np
+  from collections import deque   #使用双端队列
+
+  d = deque(maxlen=5) #设置队列最大容量
+  L = len(d) #用来计队列的长度.
+  for i in range(10):
+      d.append(i)
+      i+=1
+  print('d=',d)
+  var = np.var(d) #计算方差
+  print('var=',var)
+  mean = np.mean(d)  #均值
+  print('mean=',mean)
+  np.std(d) # 标准差
+
+
+  ```
+
+  ​
+
 ## 零散知识
 * python 中小括号代表元组;中括号代表列表;大括号代表字典.
 * 引用同级文件夹下的 py 文档
@@ -111,3 +134,43 @@ plt.plot()
 plt.savefig('PATH and name.jpg')
 plt.show
 ```
+
+## 数学知识记录
+
+* 方差 variance; 标准差 standard deviation; 均方误差 MSE(mean squared error); 均方根值 RMS;
+
+  __方差__衡量离散程度 ; 
+  __标准差__又称为 __均方差__, 是方差的算术平方根,反映数据集的离散程度. 与方差类似, 只是方差有平方项,不如标准差直观.
+  __均方误差__衡量 平均误差 ,是参数估计值与参数真值之差的平方的期望值.常用在信号处理的滤波算法中.表示此时观测值与估计值之间的偏差.
+  __均方根值__也称为方均根值或有效值,先平方,再平均,然后开放.
+  __均方根误差__是均方误差的算术平方根.
+
+
+
+## 双端队列
+
+```shell
+from collections import deque  #头文件：
+常用的方法：
+d =deque([])  # 创建一个空的双队列
+d.append(item)   # 在d的右边(末尾)添加项目item
+d.appendleft(item)  # 从d的左边(开始)添加项目item
+d.clear()  # 清空队列，也就是删除d中的所有项目
+d.extend(iterator)   # 在d的右边(末尾)添加iterator中的所有项目
+d.extendleft(item)  # 在d的左边(开始)添加item中的所有项目
+d.pop()   # 删除并返回d中的最后一个(最右边的)项目。如果d为空，则引发IndexError
+d.popleft()   # 删除并返回d中的第一个(最左边的)项目。如果d为空，则引发IndexError
+d.count(n)  # 在队列中统计元素的分数，n表示统计的元素
+d.remove(n)  # 从队列中删除指定的值
+d.reverse()  # 翻转队列
+d.rotate(n=1)  # 将d向右旋转n步(如果n<0，则向左旋转)
+#判断队列d是否为空
+if d:   # 或者用 len(d) 判断.
+     # 如果不为空时
+else:
+   # 如果为空时
+#取出d的左边和右边元素：
+#d[0]：取出最左边元素
+#d[-1]：取出最右边元素
+```
+
