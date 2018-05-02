@@ -20,6 +20,16 @@ section - subsection - paragraph
 
   ​
 
+## 伪代码模板
+
+```latex
+% 完成任务再上传这个模板
+```
+
+效果如下:
+
+
+
 ## Elsevier 模板
 
 ```latex
