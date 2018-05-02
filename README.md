@@ -11,6 +11,7 @@
 * [Latex](https://github.com/freelighting/NoteBook/blob/master/Latex.md)
 * [MarkDown](https://github.com/freelighting/NoteBook/blob/master/MarkDown.md)
 * [PaperNote](https://github.com/freelighting/NoteBook/blob/master/PaperNote.md)
+* [Platform](https://github.com/freelighting/NoteBook/blob/master/Platform.md)
 * [Python](https://github.com/freelighting/NoteBook/blob/master/Python.md)
 * [Shell](https://github.com/freelighting/NoteBook/blob/master/Shell.md)
 * [Tensorflow](https://github.com/freelighting/NoteBook/blob/master/Tensorflow.md)
