@@ -1,7 +1,9 @@
-# shell 脚本相关
+# shell 脚本相关的命令汇总
+
+[TOC]
 
 ## apt-get  
-* 常用命令
+* 常用命令 [apt-get 是 ubuntu 系统的包管理命令, 在 mac os上对应的是 brew]
 ```shell
 apt-cache show packagename              #获取包的相关信息，如说明、大小、版本等
 apt-cache depends packagename           #了解使用依赖
@@ -67,5 +69,42 @@ conda remove -n python34 numpy   # 删除package
 ## pip  
 
 * pip 命令
+
+## Vim
+
+* vim 编辑器常用命令
+
+```shell
+'''打开文件'''
+vim filename  # 打开文件
+vim file1 file2 file3 #打开多个文件
+
+'''vim 的三种模式''' 
+# 命令模式 (默认, 按 Esc, 按 Ctrl+[ ,进入)  左下角显示文件名或空
+# 插入模式 (按 i 进入)  左下角显示 --INSERT--  ; Esc 关闭插入模式
+# 可视模式 ()左下角显示 --VISUAL--
+
+'''退出命令''' #在命令模式下操作
+:wq , :x #保存并退出
+:w #保存
+:q #关闭
+:q! #强制退出并忽略更改
+:e! #放弃所有修改,并打开原来文件
+
+'''移动光标'''
+h,j,k,l # ←,↓,→,↑ 
+Ctrl f,b # 上一页, 下一页
+
+
+'''编辑 (命令模式)'''
+u  #撤销上一步操作 undo
+Ctrl r #恢复上一步操作 redo
+
+'''帮助'''
+:help
+
+```
+
+
 
 
