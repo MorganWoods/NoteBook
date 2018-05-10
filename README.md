@@ -13,6 +13,7 @@
 * [PaperNote](https://github.com/freelighting/NoteBook/blob/master/PaperNote.md)
 * [Platform](https://github.com/freelighting/NoteBook/blob/master/Platform.md)
 * [Python](https://github.com/freelighting/NoteBook/blob/master/Python.md)
+* [RLKnowledge](https://github.com/freelighting/NoteBook/blob/master/RLKnowledge.md)
 * [Shell](https://github.com/freelighting/NoteBook/blob/master/Shell.md)
 * [Tensorflow](https://github.com/freelighting/NoteBook/blob/master/Tensorflow.md)
 
