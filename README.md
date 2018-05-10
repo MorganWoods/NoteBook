@@ -5,19 +5,19 @@
 * Mac 本地仓库位置: Users/menghaw1/Downloads/0_wmh/7_Project3Pygame/NoteBook/.git/
 
 ##  目录
-> 常用
+> 常用  ----------------------------------------------------------
 
 * [PaperNote](https://github.com/freelighting/NoteBook/blob/master/PaperNote.md)    『增强学习论文笔记』
 * [RLKnowledge](https://github.com/freelighting/NoteBook/blob/master/RLKnowledge.md)    『增强学习知识点』
 
-> 编程
+> 编程  ----------------------------------------------------------
 
 * [Python](https://github.com/freelighting/NoteBook/blob/master/Python.md)    『Python语法与库』
 * [Tensorflow](https://github.com/freelighting/NoteBook/blob/master/Tensorflow.md)    『tf 库的操作知识』
 * [Platform](https://github.com/freelighting/NoteBook/blob/master/Platform.md)    『增强学习实验平台』
 * [Shell](https://github.com/freelighting/NoteBook/blob/master/Shell.md)    『终端操作相关』
 
-> 其他
+> 其他  ----------------------------------------------------------
 
 * [EnglishTalking](https://github.com/freelighting/NoteBook/blob/master/EnglishTalking.md)   『口语笔记』
 * [EnglishWriting](https://github.com/freelighting/NoteBook/blob/master/EnglishWriting.md)   『写作笔记』
@@ -25,5 +25,11 @@
 * [Latex](https://github.com/freelighting/NoteBook/blob/master/Latex.md)     『Latex语法』
 * [MarkDown](https://github.com/freelighting/NoteBook/blob/master/MarkDown.md)    『Markdown语法』
 
+>   -----------------------------------------------------------------
+
 ## 说明
 
+近期任务 :  
+
+* 完成论文(20-May), 修改论文(30-May); 加 on policy 版本算法(30-May);  五月末完成论文, 6月准备投稿. 
+* OneNote 笔记迁移到 Github; 论文公式与绘图迁移到 RLKnowledge 文件中.
