@@ -13,19 +13,21 @@
 > 编程  ----------------------------------------------------------
 
 * [Python](https://github.com/freelighting/NoteBook/blob/master/Python.md)    『Python语法与库』
-* [Tensorflow](https://github.com/freelighting/NoteBook/blob/master/Tensorflow.md)    『tf 库的操作知识』
+* [Tensorflow](https://github.com/freelighting/NoteBook/blob/master/Tensorflow.md)    『TF库的操作知识』
 * [Platform](https://github.com/freelighting/NoteBook/blob/master/Platform.md)    『增强学习实验平台』
-* [Shell](https://github.com/freelighting/NoteBook/blob/master/Shell.md)    『终端操作相关』
+* [Shell](https://github.com/freelighting/NoteBook/blob/master/Shell.md)    『终端操作相关汇总』
 
-> 其他  ----------------------------------------------------------
+> 工具操作  ----------------------------------------------------
 
-* [EnglishTalking](https://github.com/freelighting/NoteBook/blob/master/EnglishTalking.md)   『口语笔记』
-* [EnglishWriting](https://github.com/freelighting/NoteBook/blob/master/EnglishWriting.md)   『写作笔记』
 * [Github](https://github.com/freelighting/NoteBook/blob/master/Github.md)   『操作Github』
 * [Latex](https://github.com/freelighting/NoteBook/blob/master/Latex.md)     『Latex语法』
 * [MarkDown](https://github.com/freelighting/NoteBook/blob/master/MarkDown.md)    『Markdown语法』
 
->   -----------------------------------------------------------------
+> 生活  ----------------------------------------------------------
+
+- [DariyEssay](https://github.com/freelighting/NoteBook/blob/master/DariyEssay.md)   『日记随笔』
+- [EnglishTalking](https://github.com/freelighting/NoteBook/blob/master/EnglishTalking.md)   『口语笔记』
+- [EnglishWriting](https://github.com/freelighting/NoteBook/blob/master/EnglishWriting.md)   『写作笔记』
 
 ## 说明
 
@@ -33,3 +35,8 @@
 
 * 完成论文(20-May), 修改论文(30-May); 加 on policy 版本算法(30-May);  五月末完成论文, 6月准备投稿. 
 * OneNote 笔记迁移到 Github; 论文公式与绘图迁移到 RLKnowledge 文件中.
+
+将来的几个构想: 
+
+* Gridworld 改成机器人类似的形式,把终点信息加入 reward 中,加强其泛化能力; 
+* 类似 NAF 那样把两个网络完成的事弄成一个网络完成,看可行不可行;
