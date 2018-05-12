@@ -49,7 +49,7 @@
 
 ## 增强算法的技术
 
-experience repaly	soft target update	generalized Advantage estimate	NAF		Double Q learning		attention 机制	reward 方程参数化
+experience repaly	soft target update	generalized Advantage estimate	NAF		Double Q learning		attention 机制	reward 方程参数化(可以考虑对 reward 下手)
 
 ## 一些网站收藏
 
@@ -70,4 +70,38 @@ state-action-value  :   ${ Q }^{ \pi  }(s,a)=\mathbb{ E }[R|s,a,\pi ]$
 ​		其动态编程的计算式 :  ${Q}^{\pi}(s,a)=\mathbb{E}_{{s}^{\prime}}[r+\gamma\mathbb{E}_{{a}^{\prime}\sim{\pi}({s}^{\prime})}[{Q}^{\ast}({s}^{\prime},{a}^{\prime})]|s,a,\pi]$    
 
 Advantage function:  ${ A }^{ \pi  }(s,a)={ Q }^{ \pi  }(s,a)-{ V }^{ \pi  }(s)$     
+
+## 期刊与会议总结
+
+人工智能：IJCAI, AAAI; （期刊AI）
+
+机器学习顶级会议: NIPS,ICML (前俩最牛的), UAI,AISTATS; IJCAI (International Joint Conference on Artificial Intelligence)和 AAAI (American Association for Artificial Intelligence)轮流开.
+
+[期刊] ⬇️
+
+PAMI
+
+NEURAL COMPUTATION
+
+ARTIFICIAL INTELLIGENCE
+
+TKDE: IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING
+
+PR: PATTERN RECOGNITION
+
+> 投稿经验记录
+>
+> https://blog.csdn.net/u013467442/article/details/46447349     这个链接很不错,可以反复多看一看.
+>
+> 摘要是引人入胜的"药引子",要留悬念;而结论是你论文得出的有证据的东西,要简单明了(很多人写了一大堆,把推测的结果都写上,这种论文质量很差); 另外,很多人认为数据越多, 发表的可能性越大,但经过读一些论文, 发现很多人的论文很烂, 感觉就是数据的简单堆积,所以,论文的重点应该在观点上,保证一篇论文一个新观点,已经足够了.
+>
+> 英语不好没关系，是人都知道我们英语没英国和美国人地道，但只要能表达清楚你要表达的意思就好了，而且等审稿人提出来时，一定要从头到尾改一遍，你会发现，这样多次发论文后，你的英语写作水平在一天天提高，拿两年前的论文过来，自己都感觉写得很烂
+>
+> 『注意』：论文的讨论部分很重要，不要说空话。平时做实验室就要留心，多想想出现的现象，问题应该怎么解释。
+>
+> 『注意』：不要乱写参考文献，只要引用的都要要注明，没有引用的不要往里面写。把有价值的东西做好“读书笔记”，节约写论文中编排参考文献的时间。 
+>
+> 『注意』：a 参考文献最好有1／3甚至1／2以上是近5年内的文献，这样的论文会让人感觉有水平些。b 其次，最好找一手的文献，不要那种二手的文献。
+
+
 
