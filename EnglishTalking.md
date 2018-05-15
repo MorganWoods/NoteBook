@@ -1,6 +1,48 @@
 # 英语口语记录
 
-## 取自知乎的
+[TOC]
+
+## 平时查找记录
+
+- 骑自行车
+
+  We went for a cycle ride on Sunday.
+  I'm going by bike, and you may go by bus.
+  Would you like to go by bike or by bus?
+
+- 都行
+
+  Take your time , there is no rush.   你用多长时间都行, 不要急.
+  Either of them will do. 随便哪个都行.
+  Any time will do. 什么时候都行
+  Come any time you like.
+  It is all one to me. 怎么都行
+
+- 有趣
+
+  Ironically, 有意思的是, 嘲讽的是,
+  They're priceless. 他们有意思极了. 无价的,有意思的.
+  How interesting(exciting,boring)! 多么有趣,惊奇,无聊!
+  The highlight of our tour was seeing the palace, 最有意思的活动是...
+  I find surfing much more statisfactory/enjoyable than sailing. 有意思多..
+  Uh,it must mean something. 哦,这很有意思.
+  This weekend is __certain__ to be enjoyable. 这个周末一定很有意思.
+  The subject of the book is a very interesting one, 这本书的主题很有意思.
+  It was all very amusing. 很有趣,很好玩.
+
+- 好巧
+
+  what a coincidence or what a small world
+
+- 工具名字
+  screwdriver 螺丝刀  Slotted screwdriver 一字螺丝刀 Phillips screwdriver  十字螺丝刀
+  pliers , clippers,钳子,
+  nippers 镊子
+  scissors 剪子,
+
+
+
+##取自知乎的
 
 > https://www.zhihu.com/question/24544386  下面取自这里.原文有很多, 慢慢看.
 
@@ -96,3 +138,5 @@
 
 woat kind of dressing would you like? 哪种调味料?
 no, hold it a second, switch that to roast chicken. 不等等,把那个换成烤鸡.
+
+
