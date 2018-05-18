@@ -12,7 +12,12 @@
 	加快DQN训练速度：Asynchronous Methods for Deep Reinforcement Learning （这篇文章还引出了可以替代DQN的A3C算法，效果4倍Nature DQN）
 	改变DQN使之能够应用在连续控制上面：Continuous Deep Q-Learning with Model-based Acceleration
 
-## 名词知识点解释
+## 增强学习笔记
+
+* Actor-Critc 网络
+
+  这是 on policy 的. 运行流程: A 根据 state 选出一个 action :arrow_right: C 根据 state 和 action 对 A 的表现打分 :arrow_right: A根据 C 的打分,调整自己的策略(网络参数) :arrow_right: C 根据系统的 reward 和 C 的 target 调整自己打分策略(网络参数)
+  一开始 A 与 C 都是随机的,但是由于 reward 的存在,二者策略越来越准; A 调整参数根据 C 的打分,迎合 C.
 
 * Policy: maps state to action,optimization is to find an optimal mapping.
 

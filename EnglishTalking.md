@@ -35,10 +35,11 @@
   what a coincidence or what a small world
 
 - 工具名字
-  screwdriver 螺丝刀  Slotted screwdriver 一字螺丝刀 Phillips screwdriver  十字螺丝刀
-  pliers , clippers,钳子,
-  nippers 镊子
-  scissors 剪子,
+  screwdriver 螺丝刀  Slotted screwdriver 一字螺丝刀 Phillips screwdriver  十字螺丝刀;pliers , clippers,钳子,;nippers 镊子;scissors 剪子,
+
+- 钓鱼🎣
+
+  go fishing;  live bait, 诱饵,真饵; worm 蚯蚓,虫子; casting 抛竿; releasing 放生; sink 沉水,沉底; floating 漂; suspending 悬浮; lure 假饵,路亚; tackle 渔具; hook 鱼钩; wader 下水裤;set hook 鱼上钩之后的提杆;
 
 
 

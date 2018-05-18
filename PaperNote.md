@@ -19,9 +19,9 @@
 
   > Volodymyr Mnih. DeepMind. 2016. 
   * 异步梯度下降优化深度神经网络,提出了许多异步变体. 表现最好的变体是应用在 actor critic 上的并且超过 Atari 上的最新水平.使用多核 CPU 运行程序.
-  * 解决 AC 算法不收敛问题.同时创建多个并行环境,多个 agent 隔离运行.主结构的参数更新受到副结构提交更新的不连续性干扰.更新相关度降低,收敛性提高.
-  * DRL 基于 experience replay, 但他的缺点是:每次交互需要计算,需要离策略学习算法.本文使用多线程取代了 experience replay.
-  * 本文提出的算法: asynchronous one-step Q-learning; Asynchronous advantage actor-critic;
+    解决 AC 算法不收敛问题.同时创建多个并行环境,多个 agent 隔离运行.主结构的参数更新受到副结构提交更新的不连续性干扰.更新相关度降低,收敛性提高.
+  * DRL 基于 experience replay, 但他的缺点是:每次交互需要计算,需要离策略学习算法.本文使用__多线程取代了 experience replay.__
+    本文提出的算法: asynchronous one-step Q-learning; Asynchronous advantage actor-critic;
 
 * Benchmarking Deep Reinforcement Learning for Continuous Control  
 
@@ -51,7 +51,7 @@
 
 * Continuous Control with Deep Reinforcement Learning (DDPG)  
   > 2016年ICLR, 作者: Timothy P.Lillicrap   
-  
+
   * DDPG 算法从这里提出. AC 算法加 DQN 算法. 是 AC 的升级版. 
 
 * Continuous Deep Q-Learning with Model-based Acceleration (NAF)       
@@ -221,19 +221,52 @@
 
 ## Navigation
 
-* Learning Sample-Efficient Target Reaching for Mobile Robots 
-
-  > Arbaaz Khan , 2018
-
 * Building Generalizable Agents with a Realistic and Rich 3D Environment
 
   > Yi Wu , UC Berkeley , yuxin wu, Facebook AI, ICLR , 2018
 
-  * 建立了一个 House3D 的东西, 基于 SUNCG 数据库. 用于室内导航的.
+  - 建立了一个 House3D 的东西, 基于 SUNCG 数据库. 用于室内导航的.
+
+* Control of Memory, Active perception, and Action in Minecraft
+
+  * 利用外部记忆结构(类似 NTM,DNC,MemNN)通过将记忆存入外部记忆结构,提高 Agnet 的迁移能力,导航能力泛化到没见过的场景. 作者是密歇根大学博士生,
+
+* Deep Reinforcement Learning in a 3-D Blockworld Environment
+
+  * 使用CNNs 与 DQN 网络来提取图像深度信息. 使用Minecraft 环境, 开源的. 视觉输入,估计距离.
+
+* Learning Sample-Efficient Target Reaching for Mobile Robots 
+
+  > Arbaaz Khan , 2018
+
+  * 机器人寻找目标导航. 雷达扫描距离; 可以参考本文写作,很好.
+  * 使用 gym-gazebo 仿真环境测试.并且进行了实物测试.
+
+* LEARNING TO NAVIGATE IN COMPLEX ENVIRONMENTS
+
+  * 类似微软屏幕保护的迷宫环境. 此文追求累积奖励最大化与辅助任务 loss 降低,达到提高数据效率和训练效果的目标.此文顺便做了 slam 的工作. agent 需要有长短的记忆来存储环境中的动态因素. 本文目标是找到东西,辅助任务是对输入的图像给出深度信息有利于路径规划,另一个是知道 slam 的 loop closure, 就是知道这个地方我曾经来过;
+    文中模型: A3C, LSTM , stacked LSTM. NavA3C; 本文中的环境是开源的.
+
+## Reward 上做的文章
+
+* Deep Successor Reinforcement Learning
+
+  > Tejas D.Kulkarni, Harvard, NIPS 2016
+  >
+  > 参考此文总结: http://swarma.blog.caixin.com/archives/164137
+
+  * 《Curiosity-driven Exploration by Self-supervised Prediction》 by UCB. ICML 2017. 
+    《Learning to Act by Predicting the Future》 by IntelLab. ICLR 2017 (oral).
+    《Deep Successor Reinforcement Learning》 by MIT & Harvard. NIPS 2016 workshop.
+    这三篇都是解决 reward 稀疏的问题, 先收藏保留. 有的思想是奖励分成过程奖励与结果奖励.
+  * 本文用SR 方法求解 RL. 思路是将 value function 拆成两部分,一个是通过预测任务学习型到的表达,另一个是表达紧密相关激励函数
+    reward shaping 对 RL 训练的好处,稳定性提高,收敛加快.
+
+
 
 ## 其他文章
 
-* * ​
+* http://www.voidcn.com/article/p-rlbfnjbt-gc.html    这个网页列出增强学习文章与分类列表,很有参考价值,分类详细.
 
 ## 文章收集笔记
 	改进目标Q值计算：Deep Reinforcement Learning with Double Q-learning
