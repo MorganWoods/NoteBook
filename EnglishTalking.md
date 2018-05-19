@@ -41,6 +41,15 @@
 
   go fishing;  live bait, 诱饵,真饵; worm 蚯蚓,虫子; casting 抛竿; releasing 放生; sink 沉水,沉底; floating 漂; suspending 悬浮; lure 假饵,路亚; tackle 渔具; hook 鱼钩; wader 下水裤;set hook 鱼上钩之后的提杆;
 
+- 穿戴
+
+  hat 有边的帽子🎩; cap 是没有边的帽子, 或者棒球帽
+  时装: fashion ; 服装: clothing ; 定制服装: custom clothes ; 西装: suit,western-style clothes
+  外衣: coat, uterwear ; 内衣: underwear; 春秋装: between season wear;  民族服饰: national costume;
+  navy blue 深蓝色; camel 驼色; amber 琥珀色 ; lawngreen 草绿色; cream 雪白; gray 灰色;
+  button: 纽扣, collar 领子; fly :拉链; pocket 口袋; sleeve 袖子; zipper: 拉链;
+  long sleeves 长袖; short sleeves 短袖; elbow sleeve 中袖; sleeveless 无袖; loose-fit 宽松的; tight-fit 紧身的; 
+
 
 
 ##取自知乎的

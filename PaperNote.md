@@ -7,7 +7,9 @@
 
   > Yuxi Li, 2017
 
-  ​
+  * 以排山蹈海的方式全面地介绍了 DRL.
+
+  
 
 ## Continuous control 领域
 
@@ -215,17 +217,23 @@
   > https://github.com/TheAbhiKumar/tensorflow-value-iteration-networks
 
   - 把一个规划程序嵌入到神经网络结构中提高泛化能力.
+
   - 将奖励函数和转移函数参数化能求导,在策略求解中引入 __attention__ 机制
 
-  ​
+    
 
-## Navigation
+
+## Navigation 相关的论文
+
+* A Deep-Network Solution Towards Model-less Obstacle Avoidance
+
+  * 这俩人专门研究 DRL机器人避障的.挺专业的
 
 * Building Generalizable Agents with a Realistic and Rich 3D Environment
 
   > Yi Wu , UC Berkeley , yuxin wu, Facebook AI, ICLR , 2018
 
-  - 建立了一个 House3D 的东西, 基于 SUNCG 数据库. 用于室内导航的.
+  - 建立了一个 House3D 的东西, 基于 SUNCG 数据库. 用于室内导航的. 大量采集的图像形成各 library
 
 * Control of Memory, Active perception, and Action in Minecraft
 
@@ -247,6 +255,15 @@
   * 类似微软屏幕保护的迷宫环境. 此文追求累积奖励最大化与辅助任务 loss 降低,达到提高数据效率和训练效果的目标.此文顺便做了 slam 的工作. agent 需要有长短的记忆来存储环境中的动态因素. 本文目标是找到东西,辅助任务是对输入的图像给出深度信息有利于路径规划,另一个是知道 slam 的 loop closure, 就是知道这个地方我曾经来过;
     文中模型: A3C, LSTM , stacked LSTM. NavA3C; 本文中的环境是开源的.
 
+* Towards cognitive exploration through deep Reinforcement learning
+
+  >Lei Tai , Ming Liu , 2016
+
+  * 使用图像输入的深度信息探测距离,避障功能.使用了卷积神经网络.并且在生活中做了实验. 可以参考一下. 从图像信息中提取深度信息.
+
+
+
+
 ## Reward 上做的文章
 
 * Deep Successor Reinforcement Learning
@@ -264,11 +281,10 @@
 
 
 
-## 其他文章
+## 其他笔记
 
-* http://www.voidcn.com/article/p-rlbfnjbt-gc.html    这个网页列出增强学习文章与分类列表,很有参考价值,分类详细.
+http://www.voidcn.com/article/p-rlbfnjbt-gc.html    这个网页列出增强学习文章与分类列表,很有参考价值,分类详细.
 
-## 文章收集笔记
 	改进目标Q值计算：Deep Reinforcement Learning with Double Q-learning
 	改进随机采样：Prioritized Experience Replay
 	改进网络结构，评估单独动作价值：Dueling Network Architectures for Deep Reinforcement Learning ( 本文为ICML最佳论文之一）
