@@ -38,7 +38,7 @@
 * 查找会议与期刊.
 * OneNote 笔记迁移到 Github; 论文公式与绘图迁移到 RLKnowledge 文件中.个人笔记也弄到 github 上来. 无纸化.
 
-将来构想全纪录: 
+将来构想ideas全纪录: 
 
 * Gridworld 改成机器人类似的形式,把终点信息加入 reward 中,加强其泛化能力; 
 * 类似 NAF 那样把两个网络完成的事弄成一个网络完成,看可行不可行;
@@ -47,4 +47,5 @@
 * https://www.youtube.com/watch?v=EaY5QiZwSP4 一个无人车模拟,可以尝试
 * 研究 LSTM 算法
 * 关于奖励稀疏的问题, 最终奖励过于稀疏不利于训练. 参考这个网页的解释http://swarma.blog.caixin.com/archives/164137  也可以归类于 reward shaping 类别下.
+* VIN 应用到连续空间可行么?
 
