@@ -114,7 +114,7 @@ PR: PATTERN RECOGNITION
 
 > https://cs.stanford.edu/people/widom/paper-writing.html
 
-> **Paper Title**✅
+> **Paper Title**  ✅
 >
 > Titles can be long and descriptive:
 >
@@ -236,12 +236,7 @@ PR: PATTERN RECOGNITION
 > (**Exercise**: The above rule is violated at least once in this document. Find the violations.)
 >
 > - People frequently use “which” versus “that” incorrectly. “That” is defining; “which” is nondefining. Examples of correct use:
->
 > - *The algorithms that are easy to implement all run in linear time.*
->
-> - 
->
-> - *The algorithms, which are easy to implement, all run in linear time.*
 >
 > **Mechanics**
 >
