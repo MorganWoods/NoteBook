@@ -58,6 +58,10 @@ $ git branch -d <branch>       #删除本地分支
 $ git tag                      #列出所有本地标签
 $ git tag <tagname>            #基于最新提交创建标签
 $ git tag -d <tagname>         #删除标签
+
+# 强制覆盖命令
+git push --force
+
 ```
 
 ## 初始化 Github 仓库  
