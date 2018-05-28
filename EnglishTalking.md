@@ -54,6 +54,11 @@
 
   revolver, 左轮手枪; pistol 手枪; rifle 步枪; ball,子弹; birdshot 鸟枪; storm the front 突破; global risk 保卫者; 潜伏者 black list; grenade 手榴弹; flashbang 闪光弹; smoke 烟雾弹;
 
+- 购物
+
+  No，thanks. I'm just looking around. ／Just have a look.
+  cost ,成本; selling price 售价; profit 利润; industry 产业;overpriced 贵的;what a deal!多便宜！; invoice 发票; receipt 收据; 10 Euro a piece. 每件10欧;Our price can’t be matched. 价格无人能比.
+
 ## 常见错误
 
 1. 这个价格对我挺合适的。  　　误：The price is very suitable for me.  　　正：The price is right.   　　提示：suitable(合适的、相配的)最常见的用法是以否定的形式出现在告示或通知上，如：下列节目儿童不宜。The following programme is not suitable for children.   　　

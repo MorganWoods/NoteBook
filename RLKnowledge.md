@@ -110,7 +110,7 @@ PR: PATTERN RECOGNITION
 
 
 
-* 一篇斯坦福大学的写期刊文章各个章节内容的样板.
+* 一篇__斯坦福__大学的写期刊文章各个章节内容的样板.
 
 > https://cs.stanford.edu/people/widom/paper-writing.html
 
@@ -128,7 +128,7 @@ PR: PATTERN RECOGNITION
 >
 > - Floosh: *A Linear-Time Algorithm for Approximate External Sort*
 >
->  **The Abstract**
+>  **The Abstract**  ✅
 >
 > State the problem, your approach and solution, and the main contributions of the paper. Include little if any background and motivation. Be factual but comprehensive. The material in the abstract should not be repeated later word for word in the paper.
 > (**Exercise**: Write an abstract for the multiway sort example.)
