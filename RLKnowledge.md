@@ -133,7 +133,7 @@ PR: PATTERN RECOGNITION
 > State the problem, your approach and solution, and the main contributions of the paper. Include little if any background and motivation. Be factual but comprehensive. The material in the abstract should not be repeated later word for word in the paper.
 > (**Exercise**: Write an abstract for the multiway sort example.)
 >
-> **The Introduction**
+> **The Introduction** ✅
 >
 > The Introduction is crucially important. By the time a referee has finished the Introduction, he’s probably made an initial decision about whether to accept or reject the paper — he’ll read the rest of the paper looking for evidence to support his decision. A casual reader will continue on if the Introduction captivated him, and will set the paper aside otherwise. Again, *the Introduction is crucially important*.
 >
@@ -151,11 +151,11 @@ PR: PATTERN RECOGNITION
 >
 > (**Exercise**: Write the bullet list for the multiway sort example.)
 >
-> **Related Work**
+> **Related Work** ✅ 我没写这部分
 >
-> The perennial question: Should related work be covered near the beginning of the paper or near the end?
+> The perennial(永恒的) question: Should related work be covered near the beginning of the paper or near the end?
 >
-> * **Beginning**, if it can be short yet detailed enough, or if it’s critical to take a strong defensive stance about previous work right away. In this case Related Work can be either a subsection at the end of the Introduction, or its own Section 2.
+> * **Beginning**, if it can be short yet detailed enough, or if it’s critical to take a strong defensive stance(立场) about previous work right away. In this case Related Work can be either a subsection at the end of the Introduction, or its own Section 2.
 > * **End**, if it can be summarized quickly early on (in the Introduction or Preliminaries), or if sufficient comparisons require the technical content of the paper. In this case Related Work should appear just before the Conclusions, possibly in a more general section “Discussion and Related Work”.
 >
 > **The Body**
@@ -256,11 +256,58 @@ PR: PATTERN RECOGNITION
 
 
 
+* 18-19会议查询总结 (时间由近到远)     ✅标记是可以考虑的
 
+  > 可以参考的几个网站: CCF : 等级排名
+  >
+  > https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,GR 截止日期排名
 
+  * AAAI 2019 , Jan27. 2019 , Hawaii , 美国人工智能年会 ✅
+    	Abstract Registration Due : Sep.1.2018
+    	Submission Deadline: Sep 15 ,2018
+    	Notification Due: Nov1,2018
+    	Final Version Due : Nov14,2018
 
+  * ICLR 2019, Dec30,2019 , 21st  international conference on learning robots (19年的已经截止投稿了)
 
+    ​	Submission Deadline: May31 ,2018 
 
+  * ICRA 2019, May20,2019, Robotics and Automation, at Canada.
+
+    ​	30 April 2019 - Deadline for Advance Registration
+    	28 February 2019 - Submission of Final Papers
+
+  * CVPR 2019, June15, at USA,
+
+    ​	Deadline (I infer): Nov 1 ,2018
+
+  * ICML 2019, June 15, USA
+
+     	Deadline (infer) : Jan15, 2019
+
+  * IJCAI 2019, July15(infered), Macao,China, International joint conference on AI,
+
+    ​	Deadline infered: Jan15,2019
+
+  * ACL 2019, July28, Association for computational Linguistics, Italy
+
+    ​	Deadline infered: Feb 20, 2019
+
+  * IROS 2019, Nov3, Intelligent Robots and Systems. Macau,China
+
+    ​	Deadline infered: April,1 ,2019
+
+  * NIPS 2019, Dec(infer) ,Neural Information Processing Systems,
+
+    ​	Deadline infered : May31,2019
+
+  * Australasian AI 2018, Dec11, Austrialia ✅ 今年2018的来得及  考虑中.... 
+
+    ​	Deadline: July1,2018
+
+  * 几个截止日期远的,今年的
+
+    icmla, ausdm, wi,icdm,kes
 
 
 

@@ -59,6 +59,22 @@
   No，thanks. I'm just looking around. ／Just have a look.
   cost ,成本; selling price 售价; profit 利润; industry 产业;overpriced 贵的;what a deal!多便宜！; invoice 发票; receipt 收据; 10 Euro a piece. 每件10欧;Our price can’t be matched. 价格无人能比.
 
+- 读书
+
+  儒勒凡尔纳  Jules Verne;  *Around the World in Eighty Days* ;*Twenty Thousand Leagues Under the Sea*;*Journey to the Center of the Earth* ;
+
+  novelist 小说家; reputation 名气  , markedly 显著地; 硬科幻, hard science fiction; adventure novel 历险小说; alternate history novel, 虚构历史小说; Anti-war novel 反战小说; autobiography 自传; crime novel. comedy novel. detective novel; epic novel; fantasy novel;
+
+  enrich spiritual world 精神世界 ; 
+
+- 工作
+
+  薪水 wage, salary; 补贴 subsidy, allowance; 
+
+- 其他
+
+  阳光浴 sunbath;
+
 ## 常见错误
 
 1. 这个价格对我挺合适的。  　　误：The price is very suitable for me.  　　正：The price is right.   　　提示：suitable(合适的、相配的)最常见的用法是以否定的形式出现在告示或通知上，如：下列节目儿童不宜。The following programme is not suitable for children.   　　
