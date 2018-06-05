@@ -10,6 +10,8 @@
   I'm going by bike, and you may go by bus.
   Would you like to go by bike or by bus?
 
+  vehicle wheel 车轮, tyre 轮胎.
+
 - 都行
 
   Take your time , there is no rush.   你用多长时间都行, 不要急.
@@ -17,6 +19,12 @@
   Any time will do. 什么时候都行
   Come any time you like.
   It is all one to me. 怎么都行
+
+- 习惯于
+
+  be accustomed to; be used to; get used to; became conditioned to… 变得习惯于.
+
+  不习惯: unwonted. be unaccustomed to.
 
 - 有趣
 
@@ -35,7 +43,7 @@
   what a coincidence or what a small world
 
 - 工具名字
-  screwdriver 螺丝刀  Slotted screwdriver 一字螺丝刀 Phillips screwdriver  十字螺丝刀;pliers , clippers,钳子,;nippers 镊子;scissors 剪子,
+  screwdriver 螺丝刀  Slotted screwdriver 一字螺丝刀 Phillips screwdriver  十字螺丝刀;pliers , clippers,钳子,;nippers 镊子;scissors 剪子, wrench 扳手🔧.
 
 - 钓鱼🎣
 
@@ -69,11 +77,25 @@
 
 - 工作
 
-  薪水 wage, salary; 补贴 subsidy, allowance; 
+  薪水 wage, salary; 补贴 subsidy, allowance; astronomers 天文学家;
+
+- 运动
+
+  户外运动 outdoor exercises, outdoor recreation, outdoor activity, 爱好者 outdoor sports enthusiasts; 烧烤 BBQ, 烤炉 grill;  国家森林公园 national forest park ;
+
+- 社会
+
+  general public 公众;  living cost 生活成本;
 
 - 其他
 
-  阳光浴 sunbath;
+  阳光浴 sunbath; strange objects 陌生物体; 比例 proportion ; zoom in 放大(距离更近了), zoom out 缩小(距离更远了).
+
+- 短语口语
+
+  not yet 还没; why not 好呀! ; allow me 让我来; cheer up 振作起来; have fun! 玩的开心! im home 我回来了; my treat 我请客; so do I 我也一样; bless you ! 祝福你 ; I decline 我拒绝; I promise 我保证; slow down 慢点. take care 保重; try again 再试试; watch out 当心; work out 健身; never mind 不要紧; thats neat 这很好; do i have to ? 我必须这样么; who is calling ? 哪一位; enjoy yourself 玩的愉快; its her field 这是他的本行; you owe me one 你欠我一个人情;  I cant help it ,我情不自禁; Ill fix you up, 我会帮你打点的.
+
+  电子产品 die 指的是没电了;
 
 ## 常见错误
 

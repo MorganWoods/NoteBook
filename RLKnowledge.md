@@ -158,7 +158,7 @@ PR: PATTERN RECOGNITION
 > * **Beginning**, if it can be short yet detailed enough, or if it’s critical to take a strong defensive stance(立场) about previous work right away. In this case Related Work can be either a subsection at the end of the Introduction, or its own Section 2.
 > * **End**, if it can be summarized quickly early on (in the Introduction or Preliminaries), or if sufficient comparisons require the technical content of the paper. In this case Related Work should appear just before the Conclusions, possibly in a more general section “Discussion and Related Work”.
 >
-> **The Body**
+> **The Body**  ✅ ...
 >
 > - **Guideline #1**: A clear new important technical contribution should have been articulated by the time the reader finishes page 3 (i.e., a quarter of the way through the paper).
 > - **Guideline #2**: Every section of the paper should tell a story. (Don’t, however, fall into the common trap of telling the entire story of how you arrived at your results. Just tell the story of the results themselves.) The story should be linear, keeping the reader engaged at every step and looking forward to the next step. There should be no significant interruptions — those can go in the Appendix; see below.
