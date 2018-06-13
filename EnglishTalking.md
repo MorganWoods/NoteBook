@@ -87,6 +87,14 @@
 
   general public 公众;  living cost 生活成本;
 
+- 电子产品
+
+  U盘: flash drive, pen drive, thumb drive; 接口: port ; insert/put the flash drive into the usb port; 硬盘 HDD hard disk drive ; 显卡 Display card ; 机箱 case , 屏幕: moniter; 喇叭 speaker ;  内存 memory; 主板: motherboard , 电脑配件: computer components ; 处理器 processor; 网卡 network adapter; 光驱: cd drive; 电源: power supply ; 汇编程序 assembler ; band 分区;  电路 circuit ; 控制台: console; 
+
+  GB gigabyte 千兆字节; KB kilobyte; TB terabyte ; MB megabyte.
+
+  操作系统 operating systems;  文件系统 file system. 
+
 - 其他
 
   阳光浴 sunbath; strange objects 陌生物体; 比例 proportion ; zoom in 放大(距离更近了), zoom out 缩小(距离更远了).
@@ -111,6 +119,7 @@
 10. 你愿意参加我们的晚会吗？  　　误：Would you like to join our party on Friday?  　　正：Would you like to come to our party on Friday night?   　　提示：join往往是指参加俱乐部或者协会，如：join a health club; join the Communist Party。事实上，常常与party搭配的动词是come 或者go。如go a wild party，或者come to a Christmas Party。   　　
 11. 我没有经验。  　　误：I have no experience.  　　正：I don't know much about that.   　　提示：I have no experience这句话听起来古里古怪，因为只需要说那方面我懂得不多，或者这方面我不在行，就行了。I am not really an expert in this area。   　　
 12. ——这个春节你回家吗？  　　——是的，我回去。  　　--Will you be going back home for the Spring Festival?  　　误：--Of course!  　　正：--Sure. / Certainly.   　　提示：以英语为母语的人使用of course的频率要比中国的学生低得多，只有在回答一些众所周知的问题时才说of course。因为of course后面隐含的一句话是“我当然知道啦！难道我是一个傻瓜吗？”因此，of course带有挑衅的意味。在交谈时，用sure或certainly效果会好得多。同时，of course not也具挑衅的意味。正常情况下语气温和的说法是certainly not。
+13. I think so 的意思是我认为是的,但不太确定.  ;  I do think so 表示我确实这么认为的.;  我也这么想的英文表达: I had the same thought, I thought the same thing, That's what I was thinking too, That's what I thought too. That make two of us.
 
 ##取自知乎的
 
@@ -200,7 +209,7 @@
 
   the answer is zero. 白忙活了
 
-  ​
+  
 
 ## 关于吃饭
 
@@ -210,3 +219,15 @@ woat kind of dressing would you like? 哪种调味料?
 no, hold it a second, switch that to roast chicken. 不等等,把那个换成烤鸡.
 
 
+
+## 中西表达差异记录
+
+比如，中国人在餐厅或咖啡厅，会说：“我想要一个汉堡包”或者“我想要一杯咖啡”。但是，如果直接把这些话翻译成英语“I want to have a hamburger.”或“I want to have a coffee.”老外们会觉得这样说话很没有礼貌，当然他们也不会直接告诉你。而在西方国家，老外们一般会说：“Could I have a hamburger, please?”或“Can I have a coffee, please?”
+
+在这里[joy](https://www.douban.com/people/joy_/)同学又提到一个需要注意的问题，“打工的孩子最容易不注意的是see you.See u应该是客人说的，隐含了他觉得不错他会再来的意思，而店员最好用低调一点的bye，用see u太强势了。
+
+另外人家说谢谢，你也不用说you are welcome, 这实在是太正式了，有点真把自己当回事觉得帮了人家的味道。回答cheers或no worries就好，如果仅仅是对方爱说谢，你甚至可以不回应他的谢，直接说你要说的就好，如果是买了他的东西他谢你，更不能说you r welcome了，最好也谢对方”    
+
+再比如，中国人在拒绝别人邀请的午宴或晚宴时，会说：“抱歉，我不能去，我还有别的安排。”翻译成英文就是“Sorry，I can’t. I have another appointment.”如果这样说，那别人第二次也许不会再邀请你了。老外们一般会这样说：“That is a good idea! I would like to join in but I have another appointment today.”  
+
+我们可以从中总结一些“有礼貌”的技巧：   1、西方人（主要指有一定修养的欧美人）在与他人交流时，比较多地使用情态动词：can、could、may、might、would等等；情态动词（Model Verbs）又称为情态助动词（Model Auxil-iaries），表示说话人的语气，可表达建议、要求、可能和意愿等，使得说话的语气比较有礼貌。   2、比较多地使用虚拟语气，比如would (had) rather、would (had) sooner、would (just) as soon等等，或者在陈述句中使用过去式表示虚拟语气，或者使用if等引导的从句表示“可能性”。这样说话可以使人感觉表达者是在考虑达到最佳的结果或方式，尽量避免不好的结果或方式，或者推测可能出现的问题，并找出可能解决的办法。   3、往往在句尾加please，而不是在句首加please。当please用在句首的时候，语气听起来就比较强，听起来像命令。比如请求别人做某事的时候，我们中国人会说“请在周一前给我回复。谢谢。”但是如果你直接用英语说“Please reply to me by Monday. Thank you.”听者会觉得你是在命令他，一点礼貌也没有。而如果这样说：“Could you please reply to me by Monday? Thank you.”就显得有礼貌了。   4、在陈述句的表达可能显得生硬、没礼貌时，尽量使用疑问句、否定句或从句，尽量避免自己的主观判断或武断，以积极的、建议的、比较的、人性的语气，代替消极的、命令的、直接的、武断的语气。   5、说话要以他人为中心，以肯定他人、赞同他人为前提，让自己显得谦卑、渺小。说完之后，还要附带一句“Thank you”或“Thanks”。其实，这种礼貌的表达方式是来自古老的中国。这是东西方文化的共同点，也是为人处世的基本原则。了解英语中礼貌的表达方式，尽量让自己的英语表达更有礼貌，融入社会。
