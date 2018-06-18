@@ -78,6 +78,12 @@ Advantage function:  ${ A }^{ \pi  }(s,a)={ Q }^{ \pi  }(s,a)-{ V }^{ \pi  }(s)$
 
 ## 期刊与会议相关的总结
 
+* 期刊相关记录
+
+  OA 是开源的意思,供大家随意下载.
+
+  
+
 人工智能：IJCAI, AAAI; （期刊AI）
 
 机器学习顶级会议: NIPS,ICML (前俩最牛的), UAI,AISTATS; IJCAI (International Joint Conference on Artificial Intelligence)和 AAAI (American Association for Artificial Intelligence)轮流开.
@@ -256,7 +262,7 @@ PR: PATTERN RECOGNITION
 
 
 
-* 18-19会议查询总结 (时间由近到远)     ✅标记是可以考虑的
+* 18-19__会议__查询总结 (时间由近到远)     ✅标记是可以考虑的
 
   > 可以参考的几个网站: CCF : 等级排名
   >

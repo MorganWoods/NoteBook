@@ -4,6 +4,13 @@
 
 ## 平时查找记录
 
+- 打电话
+
+  接通电话: This is wmh speaking. May I speak to sb?
+  问对方是谁: who is that speaking? 
+  what name shall I give?  Hold the line ,plz. I'll get him/her to phone.  For you .  Sorry, he/she isn't in. May I take a message for you? Could you take a message for me? 
+  Sorry, you've dialed the wrong number.  I've dialed the wrong number.  The line is busy. The line is dead.
+
 - 骑自行车
 
   We went for a cycle ride on Sunday.
@@ -98,6 +105,13 @@
 - 其他
 
   阳光浴 sunbath; strange objects 陌生物体; 比例 proportion ; zoom in 放大(距离更近了), zoom out 缩小(距离更远了).
+
+- 看病
+
+  公立医院: public hospital;  私立医院 proprietary hospital; 
+  unusually tired 反常的疲倦; pain 疼, painful 疼的. jaw 下巴; bite down 咬东西; gums are red and swollen 牙床红肿;  swelling 肿胀; sore 疼痛的; urgent 紧急的; make an appointment to see doctor; roll up your sleeve 卷袖子; symptoms 症状; sore throat 喉咙痛; rash 疹子; need stiches 需要缝针; give you an injection 给你打针; joints are aching 关节痛; constipated 便秘; urine sample 尿样; lump 肿块;  in a lot of pain 感觉很痛; got a pain in my .. ;back 背部; chest 胸口; prescription 处方药; pulled a muscle in my leg 肌肉拉伤; asthmatic 哮喘; diabetic 糖尿病;  see a specialist 专科医生; I've got very little energy, 四肢乏力; difficulty sleeping 很难入睡;
+
+  buck teeth 龅牙; braces 牙套; teeth cleaned 洗牙; floss 压线清理; gum bleeding 牙床出血; fill a cavity 补牙; flase teeth, 假牙; gap 牙缝;
 
 - 短语口语
 
