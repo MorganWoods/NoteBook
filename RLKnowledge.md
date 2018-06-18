@@ -82,7 +82,7 @@ Advantage function:  ${ A }^{ \pi  }(s,a)={ Q }^{ \pi  }(s,a)-{ V }^{ \pi  }(s)$
 
   OA 是开源的意思,供大家随意下载.
 
-  
+  考虑中的会议 AAAI,
 
 人工智能：IJCAI, AAAI; （期刊AI）
 
@@ -269,10 +269,10 @@ PR: PATTERN RECOGNITION
   > https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,GR 截止日期排名
 
   * AAAI 2019 , Jan27. 2019 , Hawaii , 美国人工智能年会 ✅
-    	Abstract Registration Due : Sep.1.2018
-    	Submission Deadline: Sep 15 ,2018
-    	Notification Due: Nov1,2018
-    	Final Version Due : Nov14,2018
+     Abstract Registration Due : Sep.1.2018
+     	Submission Deadline: Sep 15 ,2018
+     	Notification Due: Nov1,2018
+     	Final Version Due : Nov14,2018
 
   * ICLR 2019, Dec30,2019 , 21st  international conference on learning robots (19年的已经截止投稿了)
 
@@ -289,7 +289,7 @@ PR: PATTERN RECOGNITION
 
   * ICML 2019, June 15, USA
 
-     	Deadline (infer) : Jan15, 2019
+      Deadline (infer) : Jan15, 2019
 
   * IJCAI 2019, July15(infered), Macao,China, International joint conference on AI,
 
@@ -307,13 +307,19 @@ PR: PATTERN RECOGNITION
 
     ​	Deadline infered : May31,2019
 
-  * Australasian AI 2018, Dec11, Austrialia ✅ 今年2018的来得及  考虑中.... 
+  * Australasian AI 2018, Dec11, Austrialia (c➕)✅ 今年2018的来得及  考虑中....  周志华分类为三类会议
 
-    ​	Deadline: July1,2018
+    ​	Deadline: July1,2018  
+
+  * ✅  ACCV 2018 还有17天截止 (c➕)
+
+  * 
 
   * 几个截止日期远的,今年的
 
     icmla, ausdm, wi,icdm,kes
+
+  * 明年的可以考虑  AAMAS2019   ECAI2019
 
 
 
