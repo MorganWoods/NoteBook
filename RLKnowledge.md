@@ -78,15 +78,36 @@ Advantage function:  ${ A }^{ \pi  }(s,a)={ Q }^{ \pi  }(s,a)-{ V }^{ \pi  }(s)$
 
 ## 期刊与会议相关的总结
 
-* 期刊相关记录
+### 期刊
 
-  OA 是开源的意思,供大家随意下载.
+相关记录
 
-  考虑中的会议 AAAI,
+OA 是开源的意思,供大家随意下载.
 
-人工智能：IJCAI, AAAI; （期刊AI）
+> 从 letpup 网页摘录下来的信息.  只记录和我水平与方向相关的 SCI 期刊
 
-机器学习顶级会议: NIPS,ICML (前俩最牛的), UAI,AISTATS; IJCAI (International Joint Conference on Artificial Intelligence)和 AAAI (American Association for Artificial Intelligence)轮流开.
+| 期刊名                                       | 影响因子 | 分区(大/小) | 印象 | 时间  |
+| -------------------------------------------- | -------- | ----------- | ---- | ----- |
+| Neurocomputing                               | 3.317    | 2/3         |      | 6m    |
+| Artificial Intelligence                      | 4.797    | 2/2         | ✅    | 9m    |
+| Neural Networks                              | 5.287    | 2/2         |      | 12m   |
+| Machine Learning                             | 1.848    | 3/3         |      | 6-12w |
+| Autonomous Robots                            | 2.706    | 3/3         |      | 6-12w |
+| Neural Computation                           | 1.938    | 3/3         | ✅    | 3m    |
+| Knowledge based systems                      | 4.529    | 2/2         | ✅    | 3-6m  |
+| ieee intelligent Systems                     | 2.374    | 2/2         |      |       |
+| artificial intelligence review               | 2.627    | 3/3         |      | 5.3m  |
+| ieee computational intelligence magazin      | 6.343    | 2/2         | 很难 | 10m   |
+| international journal of neural systems      | 6.33     | 1/1         | 挺难 |       |
+| journal of machine learning research         | 5        | 2/2         |      |       |
+| international journal of intelligent systems | 2.9      | 3/3         |      |       |
+|                                              |          |             |      |       |
+
+
+
+
+
+
 
 [期刊] ⬇️
 
@@ -116,7 +137,88 @@ PR: PATTERN RECOGNITION
 
 
 
-* 一篇__斯坦福__大学的写期刊文章各个章节内容的样板.
+
+
+
+
+### 会议
+
+18-19__会议__查询总结 (时间由近到远)     ✅标记是可以考虑的
+
+考虑中的会议 AAAI,
+
+人工智能：IJCAI, AAAI; （期刊AI）
+
+机器学习顶级会议: NIPS,ICML (前俩最牛的), UAI,AISTATS; IJCAI (International Joint Conference on Artificial Intelligence)和 AAAI (American Association for Artificial Intelligence)轮流开.
+
+> 可以参考的几个网站: CCF : 等级排名
+>
+> https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,GR 截止日期排名
+
+* AAAI 2019 , Jan27. 2019 , Hawaii , 美国人工智能年会 ✅
+   Abstract Registration Due : Sep.1.2018
+   	Submission Deadline: Sep 15 ,2018
+   	Notification Due: Nov1,2018
+   	Final Version Due : Nov14,2018
+
+* ICLR 2019, Dec30,2019 , 21st  international conference on learning robots (19年的已经截止投稿了)
+
+  ​	Submission Deadline: May31 ,2018 
+
+* ICRA 2019, May20,2019, Robotics and Automation, at Canada.
+
+  ​	30 April 2019 - Deadline for Advance Registration
+  	28 February 2019 - Submission of Final Papers
+
+* CVPR 2019, June15, at USA,
+
+  ​	Deadline (I infer): Nov 1 ,2018
+
+* ICML 2019, June 15, USA
+
+    Deadline (infer) : Jan15, 2019
+
+* IJCAI 2019, July15(infered), Macao,China, International joint conference on AI,
+
+  ​	Deadline infered: Jan15,2019
+
+* ACL 2019, July28, Association for computational Linguistics, Italy
+
+  ​	Deadline infered: Feb 20, 2019
+
+* IROS 2019, Nov3, Intelligent Robots and Systems. Macau,China
+
+  ​	Deadline infered: April,1 ,2019
+
+* NIPS 2019, Dec(infer) ,Neural Information Processing Systems,
+
+  ​	Deadline infered : May31,2019
+
+* Australasian AI 2018, Dec11, Austrialia (c➕)✅ 今年2018的来得及  考虑中....  周志华分类为三类会议
+
+  ​	Deadline: July1,2018  
+
+* ✅  ACCV 2018 还有17天截止 (c➕)
+
+* 
+
+* 几个截止日期远的,今年的
+
+  icmla, ausdm, wi,icdm,kes
+
+* 明年的可以考虑  AAMAS2019   ECAI2019
+
+
+
+
+
+
+
+
+
+### 写作提纲
+
+- 一篇__斯坦福__大学的写期刊文章各个章节内容的样板.
 
 > https://cs.stanford.edu/people/widom/paper-writing.html
 
@@ -161,8 +263,8 @@ PR: PATTERN RECOGNITION
 >
 > The perennial(永恒的) question: Should related work be covered near the beginning of the paper or near the end?
 >
-> * **Beginning**, if it can be short yet detailed enough, or if it’s critical to take a strong defensive stance(立场) about previous work right away. In this case Related Work can be either a subsection at the end of the Introduction, or its own Section 2.
-> * **End**, if it can be summarized quickly early on (in the Introduction or Preliminaries), or if sufficient comparisons require the technical content of the paper. In this case Related Work should appear just before the Conclusions, possibly in a more general section “Discussion and Related Work”.
+> - **Beginning**, if it can be short yet detailed enough, or if it’s critical to take a strong defensive stance(立场) about previous work right away. In this case Related Work can be either a subsection at the end of the Introduction, or its own Section 2.
+> - **End**, if it can be summarized quickly early on (in the Introduction or Preliminaries), or if sufficient comparisons require the technical content of the paper. In this case Related Work should appear just before the Conclusions, possibly in a more general section “Discussion and Related Work”.
 >
 > **The Body**  ✅ ...
 >
@@ -171,7 +273,7 @@ PR: PATTERN RECOGNITION
 >
 > Aside from these guidelines, which apply to every paper, the structure of the body varies a lot depending on content. Important components are:
 >
-> * **Running Example**:When possible, use a running example throughout the paper. It can be introduced either as a subsection at the end of the Introduction, or its own Section 2 or 3 (depending on Related Work).
+> - **Running Example**:When possible, use a running example throughout the paper. It can be introduced either as a subsection at the end of the Introduction, or its own Section 2 or 3 (depending on Related Work).
 >
 > - **Preliminaries**: This section, which follows the Introduction and possibly Related Work and/or Running Example, sets up notation and terminology that is not part of the technical contribution. One important function of this section is to delineate material that’s not original but is needed for the paper. Be concise — remember Guideline #1.
 > - **Content**: The meat of the paper includes algorithms, system descriptions, new language constructs, analyses, etc. Whenever possible use a “top-down” description: readers should be able to see where the material is going, and they should be able to skip ahead and still get the idea.
@@ -259,67 +361,6 @@ PR: PATTERN RECOGNITION
 > - I believe in putting papers on the web the minute they’re finished. They should be dated and can be referenced as technical reports — it’s not necessary to have an actual technical report number. Never, ever put up a paper with a conference copyright notice when it’s only been submitted, and never, ever reference a paper as “submitted to conference X.” You’re only asking for embarrassment when the paper is finally published in conference Y a year or two later.
 
 
-
-
-
-* 18-19__会议__查询总结 (时间由近到远)     ✅标记是可以考虑的
-
-  > 可以参考的几个网站: CCF : 等级排名
-  >
-  > https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,GR 截止日期排名
-
-  * AAAI 2019 , Jan27. 2019 , Hawaii , 美国人工智能年会 ✅
-     Abstract Registration Due : Sep.1.2018
-     	Submission Deadline: Sep 15 ,2018
-     	Notification Due: Nov1,2018
-     	Final Version Due : Nov14,2018
-
-  * ICLR 2019, Dec30,2019 , 21st  international conference on learning robots (19年的已经截止投稿了)
-
-    ​	Submission Deadline: May31 ,2018 
-
-  * ICRA 2019, May20,2019, Robotics and Automation, at Canada.
-
-    ​	30 April 2019 - Deadline for Advance Registration
-    	28 February 2019 - Submission of Final Papers
-
-  * CVPR 2019, June15, at USA,
-
-    ​	Deadline (I infer): Nov 1 ,2018
-
-  * ICML 2019, June 15, USA
-
-      Deadline (infer) : Jan15, 2019
-
-  * IJCAI 2019, July15(infered), Macao,China, International joint conference on AI,
-
-    ​	Deadline infered: Jan15,2019
-
-  * ACL 2019, July28, Association for computational Linguistics, Italy
-
-    ​	Deadline infered: Feb 20, 2019
-
-  * IROS 2019, Nov3, Intelligent Robots and Systems. Macau,China
-
-    ​	Deadline infered: April,1 ,2019
-
-  * NIPS 2019, Dec(infer) ,Neural Information Processing Systems,
-
-    ​	Deadline infered : May31,2019
-
-  * Australasian AI 2018, Dec11, Austrialia (c➕)✅ 今年2018的来得及  考虑中....  周志华分类为三类会议
-
-    ​	Deadline: July1,2018  
-
-  * ✅  ACCV 2018 还有17天截止 (c➕)
-
-  * 
-
-  * 几个截止日期远的,今年的
-
-    icmla, ausdm, wi,icdm,kes
-
-  * 明年的可以考虑  AAMAS2019   ECAI2019
 
 
 
