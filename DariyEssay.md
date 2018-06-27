@@ -4,7 +4,7 @@
 
 ## 日记
 
-> 时间倒序
+> 时间倒序   以后可以尝试用英文写日记. write in English!
 
 * 2018年06月18日15:51:33
 
@@ -146,6 +146,86 @@
 
 
 ## 梦境
+
+## 整理过去的
+
+> 以下来自复杂小人物微博
+
+* 2014年10,27,11:51
+
+  ​    At thepresent time ,I am a pathetic postgraduate of HEU(HarbinEngineering University).A tutor his name is Shen,he led usstudy.But he go abroad.I hate him.
+
+  ​    Badthings take me blue mood.
+
+  ​    So ,Idecide to study English by myself,I have many words want tospeak,but the English of my head is very very low.
+
+     I hope I coulde achieve mydream one day.
+
+     Let`s go!!Come on!!
+
+   Upon my word,I tell you faithfully!!
+
+* 2014年10,28 13:59
+
+  Weep youno more, sad fountains;
+
+  ​    I stllfeel that  I am a pathetic dog, because theteacher`s irresponsibility.
+
+  But I need to stand up ,cause the life is belong to me.They caninfluence me ,but they can`t decide my prospect.
+
+  ​    There aremany excellent teacher ,I admire them.I want to become them oneday.
+
+  ​    I becomethe sad fountains, weep me no more.
+
+* 2014年10月28日 22:42
+
+  ​    I meet abeautiful girl in library,whom I notice her for a long time.Fie,Fie,Fie
+
+  ​    She isthe type of  I like,she is theone of my loving.
+
+     Today,Idecide to be a new me,I am making great efforts.just likeyou see now.I don`t know how long will this process continue,I `lldo.
+
+* 2014年10月29日 07:34 
+
+  ​    I have asplendid dream.I have seen the primary school puplis in my dream.Wehave a entertaining party.LiuWang specialize in dancing,herehearsing the dance for our party out the door.The music teacherfind the wrong of my note hang the tree,and WangXin telled me.Icorrected it.And all the picture was made to the video,they make itvery well,use splendid special effects.
+
+  ​    At theend of my dream,I took part in a knowledge competition,I guesedsome right answer.
+
+  Increasingly diverse and colorful dream,it make me learned.
+
+* 2014年10月31日 08:28     you angry,it?
+
+  You angry,what could you do to he?
+
+  calm down...Do something about your project.
+
+  No one can afect you.
+
+  you didn`t know what you will be in future.
+
+  What you shoud do is calming down.
+
+  The future is decided by your attitude,
+
+* 2014年10月31日 12:01 
+
+  Mother,you have gave me many story which I like to speak toothers.Thank you ,you are a great mom.
+
+  Father,or Daddy,you have gave me many story which I like torecall by myself.Thank you,my honor.
+
+  I want to say ,you gave me everything,and It`s all my greathonor.
+
+  I LOVE YOU!!!
+
+* 2015年2月13日 23:33   奇思妙想1
+
+  国家图书馆下面有研究所，一些国家安全人员在里面工作着，间谍一样，他们在生活中有另一个身份。他们主要是保护国家和地球的安全，与毁灭地球者作斗争。
+
+  有一个毁灭国家的组织，在天安门地下水道各处安装了核弹，一触即发。
+
+* 2015年2月9日 22:27   今天看到的事
+
+  在曼哈顿等车的时候，一个司机从道路中间匆匆下车跑向路边，边跑边提示性的喊着，钱包。我以为他要提醒谁，结果他捡起钱包边翻看里面的东西边往回走。一群人的目光都在盯着他。第一，这个人的素质可见恶劣，第二，一群人看着包括我，没有人阻止，也不知道怎么阻止。真的很伤心，这就是周围的世界，我嘲笑我的无能，这种无能不是一个个体的无能，而是一个社会所有人认知上的缺陷。没有阻止恶劣行为的勇气，只有回来再这里记录下来。真的很失败，很失败。这一连串所发生的事情，所有在场的人会怎么想？我们都感受一下。有一种难受叫做不知所措，有一种失落叫做无能为力。我永远都再团体中感觉我是孤立的个体。社会何时能拥有一种好的转型？
 
 
 
