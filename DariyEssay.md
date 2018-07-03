@@ -6,6 +6,12 @@
 
 > 时间倒序   以后可以尝试用英文写日记. write in English!
 
+* 2018年06月30日12:27:26
+
+  Recent days, I feel exhausted since I often stay up late every night. My thoughts keep flying in my brain and I can't control it. Lots of things keep go in my brain, the childhood, the old era, the college time, the time we met, etc. Fankly below my heart I just wanna have a good sleep on every night. Sometime I miss my girl friend so much, I even worried about we are getting unfamiliar day by day. These bitter experience I have to overcome.
+
+  I have a dream, a dream belong to my 25 ages. This is a out of the ordinary one, a insane one. I hope I can fulfill it one day with my girlfriend in our future. So I should overcome every difficulties in front of me. Just for my dream, I should change my daily life, improve myself.
+
 * 2018年06月18日15:51:33
 
   最近通哥追女生,也让我回忆起来了我的追女朋友心路. 也让我觉着应该更加珍惜我的女朋友. 她很理解我,为我着想.我真的很幸运能有我女朋友的陪伴.谢谢你.

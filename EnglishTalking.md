@@ -4,6 +4,10 @@
 
 ## 平时查找记录
 
+- 天气
+
+  overcast 阴天; light rain 小雨; moderate rain 中雨; heavy rain 大雨; rainstorm 暴雨; thunderstorm 雷雨; fog 雾; frost 霜冻; sleet 雨夹雪; typhoon 台风; sandstorm 沙尘暴; wind direction 风向; wind force 风力; lowest temperature 最低气温; highest temperature; AM clouds/ PM sun 上午多云下午晴天; clear 晴朗; drizzle 毛毛雨; dust 灰尘; fair 晴天; hail 冰雹; light drizzle 微雨; lightening 雷电; mostly clear 大部晴朗; partly windy ,有时风;  PM showers 下午阵雨; sonw showers 阵雪; scattered showers 零星阵雨; showers 阵雨; snowflakes 雪花; fine 好天; breezy 微风; bright 阳光明媚; unsettled 天气多变的; downpour 暴雨倾盆; its drizzling 毛毛细雨; chilly 比较冷; wintry 严寒的; whats the forecast for tommorow? 明天天气咋样;
+
 - 打电话
 
   接通电话: This is wmh speaking. May I speak to sb?
@@ -119,6 +123,21 @@
 
   电子产品 die 指的是没电了;
 
+## 来自 Maaxter 的视频
+
+* 缘分
+
+  its fate that brought us together; its fate; 
+  being in the right palce at the right time;
+
+  what are the odds? 今天总遇到的情况
+
+  someone up there 上帝.
+
+* 加油
+
+  you got this! 你能行的.   Go get them! 展现你的能力吧!  Hang in there 再坚持坚持! Giving up is not an option . 不要放弃. 语气稍微强硬.好朋友之间.     Fight on! 加油,    may the force be with you ,力量与你同在.
+
 ## 常见错误
 
 1. 这个价格对我挺合适的。  　　误：The price is very suitable for me.  　　正：The price is right.   　　提示：suitable(合适的、相配的)最常见的用法是以否定的形式出现在告示或通知上，如：下列节目儿童不宜。The following programme is not suitable for children.   　　
@@ -131,9 +150,9 @@
 8. 现在几点钟了？  　　误：What time is it now?  　　正：What time is it, please?   　　提示：What time is it now是一个直接从汉语翻译过的句子，讲英语的时候没有必要说now，因为不可能问what time was it yesterday? 所以符合英语习惯的说法是：请问现在几点了？还有一种说法是：How are we doing for time?这句话在有时间限制的时候特别合适。   　　
 9. 我的英语很糟糕。  　　误：My English is poor.  　　正：I am not 100% fluent, but at least I am improving.   　　提示：有人开玩笑说，全中国人最擅长的一句英文是：My English is poor. 外国人遇到自己外语不好的情况，他们会说： I am still having a few problems, but I am getting better.   　　
 10. 你愿意参加我们的晚会吗？  　　误：Would you like to join our party on Friday?  　　正：Would you like to come to our party on Friday night?   　　提示：join往往是指参加俱乐部或者协会，如：join a health club; join the Communist Party。事实上，常常与party搭配的动词是come 或者go。如go a wild party，或者come to a Christmas Party。   　　
-11. 我没有经验。  　　误：I have no experience.  　　正：I don't know much about that.   　　提示：I have no experience这句话听起来古里古怪，因为只需要说那方面我懂得不多，或者这方面我不在行，就行了。I am not really an expert in this area。   　　
-12. ——这个春节你回家吗？  　　——是的，我回去。  　　--Will you be going back home for the Spring Festival?  　　误：--Of course!  　　正：--Sure. / Certainly.   　　提示：以英语为母语的人使用of course的频率要比中国的学生低得多，只有在回答一些众所周知的问题时才说of course。因为of course后面隐含的一句话是“我当然知道啦！难道我是一个傻瓜吗？”因此，of course带有挑衅的意味。在交谈时，用sure或certainly效果会好得多。同时，of course not也具挑衅的意味。正常情况下语气温和的说法是certainly not。
-13. I think so 的意思是我认为是的,但不太确定.  ;  I do think so 表示我确实这么认为的.;  我也这么想的英文表达: I had the same thought, I thought the same thing, That's what I was thinking too, That's what I thought too. That make two of us.
+11. 我没有经验。  　　误：I have no experience.  　　正：__I don't know much about that.__   　　提示：I have no experience这句话听起来古里古怪，因为只需要说那方面我懂得不多，或者这方面我不在行，就行了。I am not really an expert in this area。   　　
+12. ——这个春节你回家吗？  　　——是的，我回去。  　　--Will you be going back home for the Spring Festival?  　　误：--Of course!  　　正：__--Sure. / Certainly.   __　　提示：以英语为母语的人使用of course的频率要比中国的学生低得多，只有在回答一些众所周知的问题时才说of course。因为of course后面隐含的一句话是“我当然知道啦！难道我是一个傻瓜吗？”因此，of course带有挑衅的意味。在交谈时，用sure或certainly效果会好得多。同时，of course not也具挑衅的意味。正常情况下语气温和的说法是certainly not。
+13. __I think so 的意思是我认为是的,但不太确定.__  ;  I do think so 表示我确实这么认为的.;  我也这么想的英文表达: __I had the same thought,__ I thought the same thing, That's what I was thinking too, That's what I thought too. That make two of us.
 
 ##取自知乎的
 
@@ -236,12 +255,12 @@ no, hold it a second, switch that to roast chicken. 不等等,把那个换成烤
 
 ## 中西表达差异记录
 
-比如，中国人在餐厅或咖啡厅，会说：“我想要一个汉堡包”或者“我想要一杯咖啡”。但是，如果直接把这些话翻译成英语“I want to have a hamburger.”或“I want to have a coffee.”老外们会觉得这样说话很没有礼貌，当然他们也不会直接告诉你。而在西方国家，老外们一般会说：“Could I have a hamburger, please?”或“Can I have a coffee, please?”
+比如，中国人在餐厅或咖啡厅，会说：“我想要一个汉堡包”或者“我想要一杯咖啡”。但是，如果直接把这些话翻译成英语“I want to have a hamburger.”或“I want to have a coffee.”老外们会觉得这样说话很没有礼貌，当然他们也不会直接告诉你。而在西方国家，老外们一般会说：__“Could I have a hamburger, please?__”或“Can I have a coffee, please?”
 
 在这里[joy](https://www.douban.com/people/joy_/)同学又提到一个需要注意的问题，“打工的孩子最容易不注意的是see you.See u应该是客人说的，隐含了他觉得不错他会再来的意思，而店员最好用低调一点的bye，用see u太强势了。
 
-另外人家说谢谢，你也不用说you are welcome, 这实在是太正式了，有点真把自己当回事觉得帮了人家的味道。回答cheers或no worries就好，如果仅仅是对方爱说谢，你甚至可以不回应他的谢，直接说你要说的就好，如果是买了他的东西他谢你，更不能说you r welcome了，最好也谢对方”    
+另外人家说谢谢，你也不用说you are welcome, 这实在是太正式了，有点真把自己当回事觉得帮了人家的味道。回答cheers或__no worries__就好，如果仅仅是对方爱说谢，你甚至可以不回应他的谢，直接说你要说的就好，如果是买了他的东西他谢你，更不能说you r welcome了，最好也谢对方”    
 
-再比如，中国人在拒绝别人邀请的午宴或晚宴时，会说：“抱歉，我不能去，我还有别的安排。”翻译成英文就是“Sorry，I can’t. I have another appointment.”如果这样说，那别人第二次也许不会再邀请你了。老外们一般会这样说：“That is a good idea! I would like to join in but I have another appointment today.”  
+再比如，中国人在拒绝别人邀请的午宴或晚宴时，会说：“抱歉，我不能去，我还有别的安排。”翻译成英文就是“Sorry，I can’t. I have another appointment.”如果这样说，那别人第二次也许不会再邀请你了。老外们一般会这样说：__“That is a good idea! I would like to join in but I have another appointment today.”  __
 
-我们可以从中总结一些“有礼貌”的技巧：   1、西方人（主要指有一定修养的欧美人）在与他人交流时，比较多地使用情态动词：can、could、may、might、would等等；情态动词（Model Verbs）又称为情态助动词（Model Auxil-iaries），表示说话人的语气，可表达建议、要求、可能和意愿等，使得说话的语气比较有礼貌。   2、比较多地使用虚拟语气，比如would (had) rather、would (had) sooner、would (just) as soon等等，或者在陈述句中使用过去式表示虚拟语气，或者使用if等引导的从句表示“可能性”。这样说话可以使人感觉表达者是在考虑达到最佳的结果或方式，尽量避免不好的结果或方式，或者推测可能出现的问题，并找出可能解决的办法。   3、往往在句尾加please，而不是在句首加please。当please用在句首的时候，语气听起来就比较强，听起来像命令。比如请求别人做某事的时候，我们中国人会说“请在周一前给我回复。谢谢。”但是如果你直接用英语说“Please reply to me by Monday. Thank you.”听者会觉得你是在命令他，一点礼貌也没有。而如果这样说：“Could you please reply to me by Monday? Thank you.”就显得有礼貌了。   4、在陈述句的表达可能显得生硬、没礼貌时，尽量使用疑问句、否定句或从句，尽量避免自己的主观判断或武断，以积极的、建议的、比较的、人性的语气，代替消极的、命令的、直接的、武断的语气。   5、说话要以他人为中心，以肯定他人、赞同他人为前提，让自己显得谦卑、渺小。说完之后，还要附带一句“Thank you”或“Thanks”。其实，这种礼貌的表达方式是来自古老的中国。这是东西方文化的共同点，也是为人处世的基本原则。了解英语中礼貌的表达方式，尽量让自己的英语表达更有礼貌，融入社会。
+我们可以从中总结一些“有礼貌”的技巧：   1、西方人（主要指有一定修养的欧美人）在与他人交流时，比较多地使用情态动词：can、could、may、might、would等等；情态动词（Model Verbs）又称为情态助动词（Model Auxil-iaries），表示说话人的语气，可表达建议、要求、可能和意愿等，使得说话的语气比较有礼貌。   2、比较多地使用虚拟语气，比如would (had) rather、would (had) sooner、would (just) as soon等等，或者在陈述句中使用过去式表示虚拟语气，或者使用if等引导的从句表示“可能性”。这样说话可以使人感觉表达者是在考虑达到最佳的结果或方式，尽量避免不好的结果或方式，或者推测可能出现的问题，并找出可能解决的办法。   3、往往在句尾加please，而不是在句首加please。__当please用在句首的时候，语气听起来就比较强，听起来像命令__。比如请求别人做某事的时候，我们中国人会说“请在周一前给我回复。谢谢。”但是如果你直接用英语说“Please reply to me by Monday. Thank you.”听者会觉得你是在命令他，一点礼貌也没有。而如果这样说：“Could you please reply to me by Monday? Thank you.”就显得有礼貌了。   4、在陈述句的表达可能显得生硬、没礼貌时，尽量使用疑问句、否定句或从句，尽量避免自己的主观判断或武断，以积极的、建议的、比较的、人性的语气，代替消极的、命令的、直接的、武断的语气。   5、说话要以他人为中心，以肯定他人、赞同他人为前提，让自己显得谦卑、渺小。说完之后，还要附带一句“Thank you”或“Thanks”。其实，这种礼貌的表达方式是来自古老的中国。这是东西方文化的共同点，也是为人处世的基本原则。了解英语中礼貌的表达方式，尽量让自己的英语表达更有礼貌，融入社会。

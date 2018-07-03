@@ -62,6 +62,14 @@ experience repaly	soft target update	generalized Advantage estimate	NAF		Double 
 
   https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html
 
+* 两个检索论文与相对应的 code 的网页
+
+  http://www.gitxiv.com
+
+  https://paperswithcode.com
+
+  
+
 ## 常用公式汇总
 
 > Todo: 完成论文后汇总一下公式到此处
