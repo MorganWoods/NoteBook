@@ -138,12 +138,16 @@
 
   you got this! 你能行的.   Go get them! 展现你的能力吧!  Hang in there 再坚持坚持! Giving up is not an option . 不要放弃. 语气稍微强硬.好朋友之间.     Fight on! 加油,    may the force be with you ,力量与你同在.
 
+## 来自麦克老师
+
+* 肯定句多用 a lot of / lots of  . 疑问和否定用 many 和 much . many 加可数/ much 加不可数.
+
 ## 常见错误
 
 1. 这个价格对我挺合适的。  　　误：The price is very suitable for me.  　　正：The price is right.   　　提示：suitable(合适的、相配的)最常见的用法是以否定的形式出现在告示或通知上，如：下列节目儿童不宜。The following programme is not suitable for children.   　　
-2. 你是做什么工作的呢？  　　误：What's your job?  　　正：Are you working at the moment?   　　提示：what's your job这种说法难道也有毛病吗？是的。因为如果谈话对象刚刚失业，如此直接的问法会让对方有失面子，所以要问：Are you working at the moment?（目前您是在上班吗？）接下来才问：Where are you working these days?（目前您在哪儿工作呢？）或者What line of work are you in?（您从事哪个行业呢？）   　　
+2. 你是做什么工作的呢？  　　误：What's your job?  　　正：__Are you working at the moment?   __提示：what's your job这种说法难道也有毛病吗？是的。因为如果谈话对象刚刚失业，如此直接的问法会让对方有失面子，所以要问：Are you working at the moment?（目前您是在上班吗？）接下来才问：Where are you working these days?（目前您在哪儿工作呢？）或者What line of work are you in?（您从事哪个行业呢？）   　　
 3. 用英语怎么说？  　　误：How to say?  　　正：How do you say this in English?   　　提示：How to say是在中国最为泛滥成灾的中国式英语之一，这绝不是地道的英语说法。同样的句子有：How do you spell that please?（请问这个词如何拼写？）How do you pronounce this word?（请问这个单词怎么读？）   　　
-4. 明天我有事情要做。  　　误：I have something to do tomorrow.  　　正：I am tied up all day tomorrow.   　　提示：用I have something to do来表示很忙，这也完全是中国式的说法。因为每时每刻我们都有事情要做，躺在那里睡大觉也是事情。所以可以说我很忙，脱不开身：I'm tied up。还有其它的说法：I can't make it at that time. I'd love to, but I can't, I have to stay at home.   　　
+4. 明天我有事情要做。  　　误：I have something to do tomorrow.  　　正：I am tied up all day tomorrow.   　　提示：用I have something to do来表示很忙，这也完全是中国式的说法。因为每时每刻我们都有事情要做，躺在那里睡大觉也是事情。所以可以说我很忙，__脱不开身：I'm tied up__。还有其它的说法：I can't make it at that time. I'd love to, but I can't, I have to stay at home.   　　
 5. 我没有英文名。  　　误：I haven't English name.  　　正：I don't have an English name.   　　提示：许多人讲英语犯这样的错误，从语法角度来分析，可能是语法功底欠缺，因为have在这里是实义动词，而并不是助动词。所以，这句话由肯定句变成否定句要加助动词。例如：我没有钱；I don't have any money.   　　
 6. 我想我不行。  　　误：I think I can't.  　　正：I don't think I can.   　　提示：汉语里说“我想我不会”的时候，英语里面总是说“我不认为我会”。以后在说类似的英语句子的时候，只要留心，也会习惯英语的表达习惯的。   　　
 7. 我的舞也跳得不好。  　　误：I don't dance well too.  　　正：I am not a very good dancer either.   　　提示：当我们说不擅长做什么事情的时候，英语里面通常用not good at something，英语的思维甚至直接跳跃到：我不是一个好的舞者。   　　
@@ -154,9 +158,11 @@
 12. ——这个春节你回家吗？  　　——是的，我回去。  　　--Will you be going back home for the Spring Festival?  　　误：--Of course!  　　正：__--Sure. / Certainly.   __　　提示：以英语为母语的人使用of course的频率要比中国的学生低得多，只有在回答一些众所周知的问题时才说of course。因为of course后面隐含的一句话是“我当然知道啦！难道我是一个傻瓜吗？”因此，of course带有挑衅的意味。在交谈时，用sure或certainly效果会好得多。同时，of course not也具挑衅的意味。正常情况下语气温和的说法是certainly not。
 13. __I think so 的意思是我认为是的,但不太确定.__  ;  I do think so 表示我确实这么认为的.;  我也这么想的英文表达: __I had the same thought,__ I thought the same thing, That's what I was thinking too, That's what I thought too. That make two of us.
 
-##取自知乎的
+##知乎
 
 > https://www.zhihu.com/question/24544386  下面取自这里.原文有很多, 慢慢看.
+>
+> 关于用词的
 
 * 通过动词前面加 well   或 ill  表示动词性质的好与差.
   This product is well-designed / ill-designed.  替代   has a good/bad design.
@@ -191,6 +197,197 @@
 * vary 代替 different 
   Different people have different thoughts .
   People __vary__ in thoughts.
+
+
+
+> 在日常英语对话中有哪些细节中国人不会注意，但是外国人却觉得很重要，并可能认为中国人很无礼？ - 史蒂芬的回答 - 知乎 https://www.zhihu.com/question/30964795/answer/137634710
+>
+> 为了让说话更礼貌
+
+要使语气 tentative, 试探性语气. 不等于 uncertain. 与 maybe 不同. 比如多用 seem, appear, sound, look 这样的词.
+
+| 使用这句                                                     | 替换这句                           | 附加说明                                                     |
+| ------------------------------------------------------------ | ---------------------------------- | ------------------------------------------------------------ |
+| This seems to be wrong                                       | This is wrong                      | Seems,appears,语气柔和                                       |
+| looks good/ sounds good                                      | Its good                           |                                                              |
+| This is probably right                                       | maybe this is right                | 用 probably 替换 maybe                                       |
+| could we have a better way to do it? -Probably               | 不用 maybe 做答                    |                                                              |
+| Im probably wrong                                            | I maybe wrong                      |                                                              |
+| It would be better if we can change the design               | This design should be changed      | 提意见用 it would be better 代替 should                      |
+| It would be nice/great if you can come   today               | I hope/ You need/ Could u          | 表达希望你做什么的时候用 It would be nice/great              |
+| It would be nice/great if u can bring some wine to the party | Can u bring...                     |                                                              |
+| May I have ur name?                                          | whats ur name?                     | 问人要东西/信息用 May I have                                 |
+| May I have the drawing today?                                | Could u send me the drawing today? |                                                              |
+| May I have the letter?                                       |                                    |                                                              |
+| Could I have a minute/moment of ur time?                     |                                    | 销售员问法,非常礼貌(问有空不)                                |
+| Do u have a minute/moment                                    |                                    | 同事朋友说法                                                 |
+| Could I have a moment(for myself)                            | Could u come out?                  | 自己需要点时间                                               |
+| Is it possible for u to change the design                    | Could u..                          | 问别人是否可以做..                                           |
+| is it possible for u to call tomorrow                        | could u..                          |                                                              |
+| By any chance, could u help check the data?                  |                                    | 请人帮忙前面加 by any chance, 有机会,有空的意思.             |
+| u r being impatient/argumentative/unreasonable               | u r impatient/...                  | 批评的时候要用进行时态.表示不是永久的,批评的是现在           |
+| We need to be doing this asap                                | we need to do this asap            | 表达要求时多用进行时, 表示不是永久的                         |
+| we should be supporting her                                  | we should support her              |                                                              |
+| I'd like to have a meeting with u                            | I want to...                       | 用would like 代替 want                                       |
+| wanted/thought/was thinking/was wondering/was hoping         |                                    | 口语委婉语气,用过去式.                                       |
+| **Could you reply to me by today?**                          | Please reply to me by today.       | 不要乱用 please                                              |
+| Please let me know your feedback.                            |                                    | 有 let me 时候可以用 plz                                     |
+| It might be a good idea to fasten ur seat belt.              |                                    | 用 it might be 代替 plz                                      |
+|                                                              |                                    |                                                              |
+| **Please let me know your feedback.**                        | Please tell me your feedback.      | **用let, allow更礼貌**                                       |
+| **Please allow me to make a proposal**                       | I want to make a proposal          |                                                              |
+|                                                              |                                    | **不要不分场合乱用screw, suck 这些非正式用语。**             |
+| sorry Im not able to come to the party today since I'll need wo work very late. |                                    | **由于客观上导致做不到，not able to 代替 cannot**            |
+| U'll need to buy a new machine if this one doesn't work      |                                    | **给need 加将来时，更加委婉。**                              |
+| **I guess we'll leave now.**                                 | I think we'll leave now.           | **美国人特别喜欢用I guess代替I think表达委婉的语气。**       |
+| **I guess we can do better.**                                | I think we can do better.          |                                                              |
+| **Would you care for some coffee?** **I'm good. Thank you.** |                                    | 有些场合回答 no 过于唐突. 用 im good 来拒绝帮助或好意.等于说我很好,我满意了,不需要别的了. |
+| you are better than that                                     | you are wrong/careless/weak        | **指责别人用You are better than that.**                      |
+| **I have difficulty trusting you.**                          | I can't trust you.                 | **某些负面情况下用have difficulty 代替 can't，委婉把责任推向自己这边** |
+| **I have difficulty understanding your question.**           | I dont undestang ur question       |                                                              |
+| 以下是相关话题下的其他评论摘抄                               |                                    |                                                              |
+| do u speak english                                           | can u speak...                     |                                                              |
+
+
+
+> 在日常英语对话中有哪些细节中国人不会注意，但是外国人却觉得很重要，并可能认为中国人很无礼？ - Xylt的回答 - 知乎 https://www.zhihu.com/question/30964795/answer/50907037
+
+服务别人时开场白
+What can I do for you?
+What can I get for you?
+May I help you?
+
+打扰到别人时
+Excuse me.
+I'm so sorry.(常用于你真的冒犯到别人时)
+
+遇见人时开场白/问候语
+How's going there!
+Hey. How are you!
+回复
+I'm good.最常见（因地区而异）
+Pretty good.
+可接回一个how are you.
+朋友之间可以直接What's up对喊一句。
+
+让人站住
+Wait a minute.
+Pullover now!(听见了自求多福吧)
+反正别用Give me stop!
+
+等一会
+One second.(英语里1s意味着很长的一段时间）
+I'll be right back.
+
+当我没说
+Nevermind.
+
+表示不用了
+I'm good, thank you.
+
+表示惊讶
+What the XX！
+That's ridiculous!
+
+表示好笑
+That's hilarious！
+That's so funny!
+
+表示喜爱某个事物
+It's so cute!
+
+表示知道了
+Ok
+I see.
+I gotcha.
+
+表示赞同观点
+Exactly
+Absolutely
+Definitely
+You said it(此处因有观海暴漫一张)
+
+表示赞同建议
+Let's do this.
+Sounds like a plan.
+Sure, why not?
+
+表示想要什么
+Can I have some (常用于购物，点菜)    
+
+表示想让人当程序员（误）
+Just do IT.
+
+词穷必备
+Like
+Which is （可以和like连用）
+You know..
+Kind of...
+Something like that.
+(一句You know something like that is kind of可以为你拖足思考时间)
+
+ 
+
+对美国人的称呼
+Buddy哥们
+Dude伙计
+Man/Lady帅哥/美女
+Nigga仅谈话双方肤色均为黑色时使用
+前面加My可以提升亲密度
+
+ 
+
+一些用语可能在美式英语里叫法不同
+比如洗手间叫Restroom或bathroom
+sub有潜水艇面包的意思也有地铁的意思
+波士顿地铁不叫地铁，叫the T。统称一般叫metro.
+一般骂人不用狗屎，用牛屎。
+New York可能指纽约州，New York City才是纽约市。
+洛杉矶是LA，读作挨雷Ellay。
+Smoke free 不是免费烟雾，而是禁烟。
+还有美式英语会把单词中间的t发成n或d的音，比如wader，innerface。
+还有连读时t+y发tch的音，
+比如gotcha。
+Go to + 地点/事物并不一定仅仅表示去
+go to hospital去看病
+go to restroom 去上厕所
+go to bed 去睡觉
+
+有些常见的中式英语是被接受的，
+Long time no see.
+No money no talk.
+Mid or feed（瑞文中单不给就送）
+Once bit, twice shy.
+Good good study day day up（伟大的华人英语圈）
+Are you ok? （你还好吗？脑补雷总）
+
+有些则不可以，
+Don't forget your thing.
+I'm very like xx
+What's wrong with you？（你丫有病吧？）
+
+再说一些常见的网络用语吧
+lol = laugh out loud. 大笑，并不是英雄联盟
+lmao= laugh my ass off. 笑的屁股掉了
+Roflmao= rolling on the floor laugh my ass off. 笑的在地上打滚把屁股笑掉了。（有分割为Rofl mao然后配个毛爷爷的图调侃的）
+Brb= be right back
+Afk = away from keyboard
+ty= thank you
+yall = you all
+yr= your
+Nope= no
+Yep=Yup = yes
+IMO=In my opinion
+Nvm=Nevermind
+Adidas= all day I dream about sex
+
+推荐一个网站urban dictionary，能让你找到很多通俗短语的意思和一些梗，别被人骂了也不知道
+
+ 
+
+
+
+
 
 ## 其他查询的常用口语
 
