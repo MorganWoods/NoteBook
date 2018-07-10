@@ -6,6 +6,14 @@
 
 > 时间倒序   以后可以尝试用英文写日记. write in English!
 
+* 2018年07月10日11:36:46
+
+  我的理想是,将来找份好的工作,让自己生活殷实甚至富足.然后帮助并部分资助下一代的成长.先从我认识的下一代中做起; 为了我这个理想.我应该努力了.加油,梦浩.
+
+* 2018年07月06日17:36:05
+
+  张说她喜欢独处,不喜欢人多欢闹.其实,我也是这样. 我更愿意独处安静的时光. 人们生活方式各有不同, 我们按照自己喜欢的方式生活,才更有意义.无论选择哪种方式,都有所得失.
+
 * 2018年06月30日12:27:26
 
   Recent days, I feel exhausted since I often stay up late every night. My thoughts keep flying in my brain and I can't control it. Lots of things keep go in my brain, the childhood, the old era, the college time, the time we met, etc. Fankly below my heart I just wanna have a good sleep on every night. Sometime I miss my girl friend so much, I even worried about we are getting unfamiliar day by day. These bitter experience I have to overcome.

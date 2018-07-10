@@ -47,7 +47,7 @@
   Uh,it must mean something. 哦,这很有意思.
   This weekend is __certain__ to be enjoyable. 这个周末一定很有意思.
   The subject of the book is a very interesting one, 这本书的主题很有意思.
-  It was all very amusing. 很有趣,很好玩.
+  It was all very __amusing__. 很有趣,很好玩.
 
 - 好巧
 
@@ -117,11 +117,69 @@
 
   buck teeth 龅牙; braces 牙套; teeth cleaned 洗牙; floss 压线清理; gum bleeding 牙床出血; fill a cavity 补牙; flase teeth, 假牙; gap 牙缝;
 
+- 性格
+
+  independent; outgoing;active;able有才干的; adaptable 适应性强的; active 活跃的; aggressive 有进取心的; ambitious;amiable 和蔼可亲的; capable 有能力的; careful 仔细的; creative 富有创造力的; dedicated 奉献精神的; dependable 可靠的; cooperative 合作精神的; dutiful 尽职的; efficient 有效率的; grank 真诚的; generous 宽宏大量的; gentle 有礼貌的; impartial 公正的; intelligent 理解力强的; logical;methodical 有方法的; steady 踏实的; systematic 有系统的; purposeful 意志力强的; sweet tempered 性格温和的;
+
 - 短语口语
 
   not yet 还没; why not 好呀! ; allow me 让我来; cheer up 振作起来; have fun! 玩的开心! im home 我回来了; my treat 我请客; so do I 我也一样; bless you ! 祝福你 ; I decline 我拒绝; I promise 我保证; slow down 慢点. take care 保重; try again 再试试; watch out 当心; work out 健身; never mind 不要紧; thats neat 这很好; do i have to ? 我必须这样么; who is calling ? 哪一位; enjoy yourself 玩的愉快; its her field 这是他的本行; you owe me one 你欠我一个人情;  I cant help it ,我情不自禁; Ill fix you up, 我会帮你打点的.
 
   电子产品 die 指的是没电了;
+
+- 表示, 本想, 原以为
+
+  **1.** 用come / go 等动词的[过去进行时](http://www.yygrammar.com/)表示。如：
+
+  We were coming to see you, but it rained (so we didn’t). 我们本打算来看你的，只是下起雨来了。
+
+  I was trying to help but I screwed up again. 我本想帮忙，反而又把事情搞糟了。
+
+  **2.** 用was [were] going to do sth 表示。如：
+
+  She was going to attend the concert last night, but she was too busy. 她昨晚本想去听音乐会的，但她太忙了。
+
+  **3.** 用think, hope, plan, mean, expect, intend, suppose 等动词的[过去完成时](http://www.yygrammar.com/)表示。如：
+
+  I had meant to come, but something happened. 我本想来，但有事就没有来。
+
+  I had intended to speak, but time did not permit. 我本想发言，但时间不允许。
+
+  We had hoped that you would come to see us, but you didn't. 我们本想你来看我们的，但你没有来。
+
+  We had thought to return early but they wouldn't let us go. 我们本想早回来的，但他们不让我们走。
+
+  若不至于引导误解，有时也可用以上动词的一般过去时表示“本想”。如：
+
+  I thought I could go, but I can’t. 我原以为我能去，但我（现在）去不了。
+
+  I meant to reason with you, but you won't reason. 我本想和你讲道理，但你不肯讲道理。。
+
+  He hoped to come with us, but he was too busy. 他本想同我们一起来的，但他太忙了。
+
+  **4.** 用hope, plan, mean, expect, intend, suppose 的过去式后接完成式不定式表示
+
+  I expected to have come early, but I missed the early bus. 我本来想早点来的，但未赶上早班车。
+
+  I meant to have told you about it earlier, but I could not come. 我本想早点把这事告诉你，但是我来不及了。
+
+  比较同义表达：
+
+  We had intended to go to London.=We intended to have gone to London. 我们本来打算到伦敦去的。
+
+  **5.** 用would have done 表示。如：
+
+  I would have written before, but I have been ill. 我本想给你写信的，但我生病了。
+
+  I would have preferred a bed, but beggars can’t be choosers so I slept on the sofa. 我本想要张床, 但是叫花子不能挑肥拣瘦, 所以我就睡在沙发上了。
+
+  **6.** 用should [would] like [love] have done 表示。如：
+
+  I should like to have seen it (but it wasn't possible). 我本想事前看到的(但这不可能)。
+
+  I would like to have gone to the party last night but I had to work extra hours to finish a report. 昨晚我本想去参加晚会的，但我要加班写一个报告。
+
+  I'd love to have taken him round the factory, but I was too busy. 我本想带他去厂里看看，但我太忙了。
 
 ## 来自 Maaxter 的视频
 
@@ -138,9 +196,30 @@
 
   you got this! 你能行的.   Go get them! 展现你的能力吧!  Hang in there 再坚持坚持! Giving up is not an option . 不要放弃. 语气稍微强硬.好朋友之间.     Fight on! 加油,    may the force be with you ,力量与你同在.
 
+* 形容食物
+
+   yummy, delish, appetizing 有食欲的. mouthwatering 流口水的;
+
+   jiggly Q 弹得, soft, fluffy 蓬松软的;
+
+   gooey 胶黏的;
+
+  sour 酸的, citrus 柑橘类的味道, citrusy,lemony;
+
+  crumbly, 易碎的 crumbly almond cookie, crunchy, 发嘎吱嘎吱声音的;
+
+  crispy 酥脆的, juicy 多汁. dry chicken 干的鸡肉.
+
+  greasy ,oily ,油腻的;
+
+  slimy 粘稠的, sea cucumber 海参, natto 纳豆;
+
+  salty, garlicy, bitter, bitter melon, chewy 有嚼劲的,, spicy/hot 辣.
+
 ## 来自麦克老师
 
 * 肯定句多用 a lot of / lots of  . 疑问和否定用 many 和 much . many 加可数/ much 加不可数.
+* 
 
 ## 常见错误
 
