@@ -42,7 +42,7 @@
 
 * Gridworld 改成机器人类似的形式,把终点信息加入 reward 中,加强其泛化能力; 
 * 类似 NAF 那样把两个网络完成的事弄成一个网络完成,看可行不可行;
-* 对 reward 的机制下手, 让他得分惩罚更加合理有利于收敛.
+* 对 reward 的机制下手, 让他得分惩罚更加合理有利于收敛.  reward shaping
 * gazebo 环境的开发
 * https://www.youtube.com/watch?v=EaY5QiZwSP4 一个无人车模拟,可以尝试
 * 研究 LSTM 算法
