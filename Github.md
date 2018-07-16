@@ -1,5 +1,7 @@
 # 与 Github 操作相关的命令记录
 
+[TOC]
+
 ## 修改文件 ※
 
 ```python
@@ -94,3 +96,9 @@ git rm <path> <file>
 git commit -a -m "a file was deleted" 
 git push origin master
 ```
+
+
+
+## Gitbook
+
+以后尝试用这gitbook 记笔记吧. 等有精力再弄.
