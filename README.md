@@ -7,8 +7,8 @@
 ##  目录
 > 常用  ----------------------------------------------------------
 
-* [PaperNote](https://github.com/freelighting/NoteBook/blob/master/PaperNote.md)    『增强学习论文笔记』
-* [RLKnowledge](https://github.com/freelighting/NoteBook/blob/master/RLKnowledge.md)    『增强学习知识点』
+* [PaperNote](https://github.com/freelighting/NoteBook/blob/master/PaperNote.md)    『增强学习论文笔记』[停止更新]
+* [RLKnowledge](https://github.com/freelighting/NoteBook/blob/master/RLKnowledge.md)    『增强学习知识点』[停止更新]
 
 > 编程  ----------------------------------------------------------
 
@@ -33,11 +33,15 @@
 
 近期任务 :  
 
-* 把 Reinforcement Learning 相关笔记与知识迁移到 Gitbook 上? 迁过去吧,记笔记看笔记方便一些.但这里保存原来的几个文件,且暂时停止更新.
+* 看文章,准备下一篇.
+
+* ~~把 Reinforcement Learning 相关笔记与知识迁移到 Gitbook 上 迁过去吧,记笔记看笔记方便一些.但这里保存原来的几个文件,且暂时停止更新.~~
+
+  已经迁移到 gitbook 上的 RL 文档中:https://kiitos.gitbook.io/rl/
 
 * 写实验部分时候参考别的论文的实验用语. 加油吧,提高效率.
-* 完成论文(20-May), 修改论文(30-May); 加 on policy 版本算法(30-May);  五月末完成论文, 6月准备投稿. 
-* 查找会议与期刊.
+* ~~完成论文(20-May), 修改论文(30-May); 加 on policy 版本算法(30-May);  五月末完成论文, 6月准备投稿.~~
+* ~~查找会议与期刊.~~
 * OneNote 笔记迁移到 Github; 论文公式与绘图迁移到 RLKnowledge 文件中.个人笔记也弄到 github 上来. 无纸化.
 * 下次读文章时候把参考文献记录下来,分类.
 
